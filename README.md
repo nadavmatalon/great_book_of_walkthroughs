@@ -1,7 +1,5 @@
 ## Ruby on Rails Walkthroughs
 
-Will - Initial project setup
-
 Nadav	-	Initial project setup, Devise (user interface)
 
 Julie	-	Heroku
@@ -15,6 +13,8 @@ James W -	Bootstrap
 Kate	-	?
 
 Johan   -  	?
+
+Will 	- 	Initial project setup
 
 ?		- 	Json
 
