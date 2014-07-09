@@ -3,7 +3,7 @@
 
 ### Brief Intro
 
-Taking the very first steps in any new development domain - be it Ruby, Javascript or Ruby on Rails - is certainly the hardest part. 
+Taking the first steps in any new development domain - be it Ruby, Javascript or Ruby on Rails - is often the hardest part. 
 
 Walkthroughs are a great way to facilitate the transition from this initial (clueless) phase to a more productive & efficient level of competance. 
 
@@ -11,14 +11,14 @@ So, here's the big idea in a nutshell: rather than having each of us spending ho
 
 Each of these walkthroughs is meant to ofer a succict, step-by-step guidance on a specific topics, coupled with useful tips, pitfall warnings and perhaps a few selected resources. 
 
-Beyond its substantial time-saving potential and capacity to serve as highly effective learning-tool for those who take part in writing it, the Great Book of Walkthroughs could also be our gift to the next generations of cohorts at Makers Academy.
+Beyond its substantial time-saving potential and capacity to serve as an effective learning-tool for those who take part in writing it, the Great Book of Walkthroughs could also be our gift to the next generations of cohorts at Makers Academy.
 
 
 ### (Provisional) Guidlines
 
 (to be imporved, revised, updated, and changed in any odd way according to everyone's suggestions)
 
-(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" to "Ruby on Rails: Feature testing with RSPEC", to example-specific ones like "Working with Github API".
+(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" to "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
 
 
 (2) Pick a topic, preferably one that hasn't be covered yet and let me know so I'll update the list).
