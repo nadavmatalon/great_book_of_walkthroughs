@@ -29,7 +29,7 @@ On the other hand, it's possible that an the exiting materials could serve as a 
 
 (3) All walkthroughs will be available on Github. 
 
-To share your walkthrough, simply fork this repository, add your file to the walkthroughs folder, send me a pull request and I'll merge into the general repo.
+To share your walkthrough, simply fork this repository, add your file to the walkthroughs folder, push to your remote repo, send me a pull request and I'll merge it into the general repo.
 
 (4) The walkthroughs themselves need not be long or extensive (though they could be if you prefer to write them that way), nor should they take long to write. The idea is to provide just the basic squence of little steps to guide someone who knows little to nothing about a particular subject.
 
