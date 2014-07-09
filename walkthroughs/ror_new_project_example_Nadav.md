@@ -1,14 +1,20 @@
 
-Ruby On Rails - Initial Setup of a Project
-
-Main Source for Ruby on Rails Initial Setup:
-
-http://www.railstutorial.org/book/beginning#cha-1_footnote-14
+Ruby On Rails: Creating a New Project
 
 
-To set up a new project (with postgresql databases):
+Main Source:  http://www.railstutorial.org/book/beginning#cha-1_footnote-14
 
-	(*)	To check currently installed versions of Ruby and Rails:
+
+Note 1: Text in square brackets must be removed completely (including the brackets)
+ 		and replaced with the user's choice as appropriate (see example in step 1).
+
+Note 2:	If a file's location isn't specified explicitly, that file is in the root directory
+		of the project.
+
+
+To set up a new Runy on Rails project with postgresql databases:
+
+	(*)	Check currently installed versions of Ruby and Rails:
 
 		Terminal>	ruby -v
 
@@ -22,18 +28,18 @@ To set up a new project (with postgresql databases):
 	(1)	Terminal>	rails new [name_of_project_lower_case] -T -d postgresql
 
 
-	(2)	cd [name_of_project_lower_case]
+	(2)	Terminal>	cd [name_of_project_lower_case]
 
 
 	(3)	Terminal> 	subl .
 
 
-	(4)	Update the Gemfile to include:
+	(4)	Update the "Gemfile" file to include:
 
-		(go over the Github README in the documentation - links about each 
-		 gem and verify current versions and updated installation instructions)
+		(go over the Github README in the documentation - links above each 
+		 gem - and verify current versions and updated installation instructions)
 
-			ruby '2.1.1'   	# update to currently used Ruby version
+			ruby '2.1.1'   	# update this according to currently used Ruby version
 
 			# https://github.com/plataformatec/devise
 			gem 'devise'
@@ -76,11 +82,10 @@ To set up a new project (with postgresql databases):
 
 	(5)	Terminal> 	bundle install
 
-		(If Bundler complains about a readline error, try adding gem ’rb-readline’ 
+		(If the Bundler complains about a readline error, try adding gem 'rb-readline'
 		 to the Gemfile)	
 
-
-		Additional bundle install commands:
+		(optional) Additional bundle install commands:
 
 		// will be used only by Heroku to install gems related to the 'production group'
 		// in the Gemfile (ie gems in this group will not be installed locally - note
@@ -93,11 +98,13 @@ To set up a new project (with postgresql databases):
 		Terminal>	bundle install
 
 
-	(6)	To install “rspec-collection_matchers” gem (extended syntax for rspec testing):
+	(6)	To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
 
 		Add the following line at the top of “spec/helpers/rspec_helper.rb”:
 
 			require 'rspec/collection_matchers'
+
+		And then:
 
 		Terminal> 	bundle install
 
@@ -105,7 +112,7 @@ To set up a new project (with postgresql databases):
 	(7)	Terminal> 	bin/rails generate rspec:install	
 
 
-	(8)	Update “.rspec” file:
+	(8)	(optional) Update the “.rspec” file as follows:
 
 			--color
 			--format documentation
@@ -134,7 +141,7 @@ To set up a new project (with postgresql databases):
 					.idea
 					.secret
 
-	(11)	Terminal> 	rspec
+	(11)	Terminal> 	rspec  			// this is just to make sure rspec is running correctly
 
 
 	(12)	Terminal> 	bin/rake db:create
@@ -146,82 +153,41 @@ To set up a new project (with postgresql databases):
 	(14) 	Terminal> 	bin/rake routes				
 
 
-	(15)	In “/app/assets/javascripts”, remove the “.coffee” file-type from all 
-			file_names and empty the files from default content
+	(15)	(optional) In “/app/assets/javascripts”, remove the “.coffee” file-type from all 
+			file_names and remove the default content
 
 
-	(16)	Terminal>	bin/rails generate devise:install			
-
-
-	(17)	In “config/environments/development.rb” add this line:
-
-			config.action_mailer.default_url_options = { host: 'localhost:3000' }
-
-
-	(18)	In “config/environments/test.rb” add this line:
-
-  			config.action_mailer.default_url_options = { host: 'localhost:3000' }
-
-
-	(19)	In “config/routes.rb” add the following line:
-
-	       	root to: "home#index"
-
-
-	(20)	Terminal> 	bin/rails generate devise:views
-
-
-	(21)	(optional) In “app/views/layouts/application.html.erb” add this line:
+	(16)	(optional) In “app/views/layouts/application.html.erb” add this line:
 
 			<h1>[name_of_project]</h1><br/>
 
 
-	(22)	Set up Github repo:
+	(17)	Set up a local Github repo:
 
  			Terminal>	git init
 
+ 			Terminal>	touch README.md
+
 			Terminal> 	git add .
 			
-			Terminal>	git commit -m "Initial commit"
+			Terminal>	git commit -m "initial commit"
 
 
-	(23)	Set up Github remote repo and then link them together:
+	(18)	Set up a Github remote repo and then link them together:
 
 			Terminal>	git remote add origin [Github_ssh_address_of_repo]
 
 			Terminal>	git push -u origin master	
 
 
-	(24)	Update the “.gitignore” file to include:
+	(19)	Update the “.gitignore” file to include:
 
 			# Ignore the secrets files.
 				/config/database.yml
 
 
-	(24)	To set up basic users interface (with just “name” and “email”):
-
-
-		Terminal>	bin/rails generate scaffold User name:string email:string
-
-		(The name of a scaffold follows the convention for models which is to use singular,
-
-		while for names of resources and controllers the convention is to use plural)
-
-
-		Terminal>	bin/rake db:migrate
-
-		Alternative command:
-
-			Terminal>	bundle exec rake db:migrate
-			Terminal>	bundle exec bin/rake db:migrate
-
-
-		Terminal>	bin/rake db:migrate RAILS_ENV=test
-
-		Terminal>	rspec
-
-
-	(25)	Terminal> 	bin/rails server
+	(20)	Terminal> 	bin/rails server 		// to enable viewing of project in the 
+												//browser (url: localhost:3000)
 
 	  .
 
