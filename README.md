@@ -18,16 +18,16 @@ Beyond its substantial time-saving potential and capacity to serve as highly eff
 
 (to be imporved, revised, updated, and changed in any odd way according to everyone's suggestions)
 
-1. The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" to "Ruby on Rails: Feature testing with RSPEC", to example-specific ones like "Working with Github API".
+(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" to "Ruby on Rails: Feature testing with RSPEC", to example-specific ones like "Working with Github API".
 
 
-2 Pick a topic, preferably one that hasn't be covered yet and let me know so I'll update the list).
+(2) Pick a topic, preferably one that hasn't be covered yet and let me know so I'll update the list).
 
-It's probably also a good idea to take a look at the various pills & walkthroughs available on the Maker's website. If there's an excellent walkthough there already, there may not be a need to write a new one (but do send me a link and we'll possibly make a list of those for reference). 
+	It's probably also a good idea to take a look at the various pills & walkthroughs available on the Maker's website. If there's an excellent walkthough there already, there may not be a need to write a new one (but do send me a link and we'll possibly make a list of those for reference). 
 
-On the other hand, it's possible that an the exiting materials could serve as a useful source for a walkthrough in the format promoted here. 
+	On the other hand, it's possible that an the exiting materials could serve as a useful source for a walkthrough in the format promoted here. 
 
-3. All walkthroughs will be available on Github. 
+(3) All walkthroughs will be available on Github. 
 
    To share your walkthrough, simply fork this repository, add your file, send me a pull request and I'll merge into the general repo.
 
