@@ -18,10 +18,10 @@ Beyond its substantial time-saving potential and capacity to serve as an effecti
 
 (to be imporved, revised, updated, and changed in any odd way according to everyone's suggestions)
 
-(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" to "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
+(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
 
 
-(2) Pick a topic, preferably one that hasn't be covered yet and let me know so I'll update the list).
+(2) To get started simply pick a topic, preferably one that hasn't been covered yet and let me know so I'll update the list.
 
 It's probably also a good idea to take a look at the various pills & walkthroughs available on the Maker's website. If there's an excellent walkthough there already, there may not be a need to write a new one (but do send me a link and we'll possibly make a list of those for reference). 
 
