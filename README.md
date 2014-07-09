@@ -1,6 +1,8 @@
 ## Ruby on Rails Walkthroughs
 
-Navav	-	Initial project setup, Devise (user interface)
+Will - Initial project setup
+
+Nadav	-	Initial project setup, Devise (user interface)
 
 Julie	-	Heroku
 
