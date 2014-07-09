@@ -37,9 +37,9 @@ For general referece, I attached a partial example under "ror_new_project_Nadav"
 
 (5) In terms of content the most important thing is to keep to the "step-by-step" paradigm.
 
-(6) Provide succinct yet specific information about where each step is taken (terminal, browser, etc - in projects with a large number of files this will be particularly helpful). Another example is adding a link-pointer to the Github repository of a Gem when the latter is to be included in the Gemfile.
+(6) Try to provide succinct yet specific information about where each step is taken (terminal, browser, etc - in projects with a large number of files this will be particularly helpful). Another example is adding a link-pointer to the Github repository of a Gem when the latter is to be included in the Gemfile.
 
-(7) Offer a clear distinction between essential steps & optional ones.
+(7) Try to offer a clear distinction between essential steps & optional ones.
 
 (8) A possilble way to write a walkthrough is simply to follow one of the many available screen-casts and iterate each of the steps as they come. In this context, some subsequent editing might be needed in order to make the content generic so that it'll be useful for other project as well.
 
@@ -74,7 +74,7 @@ Julia	-	Rspec Testing?
 
 Margarita 	-
 
-Nic 	-	Scraping Websites? (it that the correct termk? :-)
+Nic 	-	Scraping Websites? (it this the correct term? :-)
 
 ?   	-	Javascript (general guide / concrete examples)
 
