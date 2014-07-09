@@ -20,6 +20,7 @@ Beyond its substantial time-saving potential and capacity to serve as an effecti
 
 (1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
 
+The "Division of Labor" section below lists all the topics which have currently been chosen as well as a few open suggestions (but, once again, you can choose to write about anything you like regardless of these suggestions).
 
 (2) To get started simply pick a topic, preferably one that hasn't been covered yet and let me know so I'll update the list.
 
