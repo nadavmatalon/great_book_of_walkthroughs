@@ -10,6 +10,10 @@ Nicolai	-	S3
 
 James W -	Bootstrap
 
+Kate	-	?
+
+Johan   -  	?
+
 ?		- 	Json
 
 ?		-	APIs
