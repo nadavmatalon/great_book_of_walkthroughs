@@ -76,21 +76,21 @@ Margarita 	-
 
 Nic 	-	Scraping Websites? (it that the correct termk? :-)
 
-? 		-	Javascript (general guide / concrete examples)
+?   	-	Javascript (general guide / concrete examples)
 
-?		- 	Json (general guide / concrete examples)
+?   	- 	Json (general guide / concrete examples)
 
-?		-	APIs (general guide / concrete examples)
+?   	-	APIs (general guide / concrete examples)
 
-?		-	Ruby on Rails: Devise
+?   	-	Ruby on Rails: Devise
 
-?		- 	Ruby on Rails: Helpers
+?   	- 	Ruby on Rails: Helpers
 
-?		- 	Ruby on Rails: Partials
+?   	- 	Ruby on Rails: Partials
 
-?		-	Capybara
+?   	-	Capybara
 
-? 		-	Sinatra
+?    	-	Sinatra
 
 
 
