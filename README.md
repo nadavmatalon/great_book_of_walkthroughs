@@ -83,6 +83,8 @@ Vaidas	- 	Working with Json
 
 ?   	-	APIs (general guide / concrete examples)
 
+?		- 	gmaps (Google maps API)
+
 ?   	-	Ruby on Rails: Devise
 
 ?   	- 	Ruby on Rails: Helpers

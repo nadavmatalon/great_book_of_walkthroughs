@@ -38,7 +38,7 @@ To set up a new Runy on Rails project with postgresql databases:
 							   create it with: 		Terminal> 	touch .railsrc
 							   and open it with: 	Terminal> 	subl .railsrc	
 
-		Add the following content to the ".railsrc":
+		Add the following content to the ".railsrc" file:
 
 		-d postgresql		// sets the database to postresql
 
