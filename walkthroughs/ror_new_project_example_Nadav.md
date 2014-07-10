@@ -11,6 +11,8 @@ Note 1: Text in square brackets must be removed completely (including the bracke
 Note 2:	If a file's location isn't specified explicitly, that file is in the root directory
 		of the project.
 
+Note 3: Do not push to the remote github repo before adding "secrets.yml" to the .gitignore list (step 10)
+
 
 To set up a new Runy on Rails project with postgresql databases:
 
