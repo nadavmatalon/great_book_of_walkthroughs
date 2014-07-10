@@ -166,8 +166,8 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 	(9)	Rename the “README.rdoc” file to “README.md”
 
 
-	(10)	In “/app/assets/javascripts/application.js”, remove fourth element ("turbo-links") and leave only the
-		following three:
+	(10)	In “/app/assets/javascripts/application.js”, remove the third element from 
+	   		the top ("turbo-links") and leave only the following three:
 
 			//= require jquery
 			//= require jquery_ujs
