@@ -229,20 +229,17 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 				Terminal> 	bin/rake db:create RAILS_ENV=test
 
 
-	(17) 	Terminal> 	bin/rake routes			// just to see the different routes currently available			
-
-
-	(18)	(optional) In “/app/assets/javascripts”, remove the “.coffee” file-type from all 
+	(17)	(optional) In “/app/assets/javascripts”, remove the “.coffee” file-type from all 
 			file_names and remove the default content - unless you intend to use coffee scripts of course.
 
 
-	(19)	(optional) In “app/views/layouts/application.html.erb” add this line:
+	(18)	(optional) In “app/views/layouts/application.html.erb” add this line:
 			(this is just to have something to see in the browser to make sure it's working ok)
 
 			<h1>[name_of_project]</h1><br/>
 
 
-	(20)	Set up a local Github repo:
+	(19)	Set up a local Github repo:
 
  			Terminal>	git init
 
@@ -253,14 +250,14 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			Terminal>	git commit -m "initial commit"
 
 
-	(21)	Set up a Github remote repo and then link them together:
+	(20)	Set up a Github remote repo and then link them together:
 
 			Terminal>	git remote add origin [Github_ssh_address_of_repo]
 
 			Terminal>	git push -u origin master	
 
 
-	(22)	Update the “.gitignore” file to include:
+	(21)	Update the “.gitignore” file to include:
 			(the idea is to have this file in the remote Github repo for other developers to use,
 			but to keep all the changes you might make locally)
 
@@ -268,7 +265,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 				/config/database.yml
 
 
-	(23)	Terminal> 	bin/rails server 		// to enable viewing of project in the 
+	(22)	Terminal> 	bin/rails server 		// to enable viewing of project in the 
 												// browser at url: localhost:3000)
 
 			Alternative (shorthand) command:
@@ -276,7 +273,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			Terminal>	bin/rails s
 
 
-	(24)	(optional) To test code and check the content of the development database:
+	(23)	(optional) To test code and check the content of the development database:
 
 				Terminal>	bin/rails console
 
@@ -289,7 +286,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 				Terminal>	bin/rails console test
 
 
-	(25)	(optional) To add a "reset.css" file so as to reset the default css styling of browsers:
+	(24)	(optional) To add a "reset.css" file so as to reset the default css styling of browsers:
 
 			Create a new file: “app/vendor/stylesheets/reset.css”
 			(note that the new file should be located in the 'vendors' folder)
@@ -307,7 +304,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			(if the '*=require reset' line is not located above all the other 'require' lines, it WILL mess up your css styling and browser rendering)
 
 
-	(26)	(optional) To make sure webpages load fully before functionality becomes available, in “app/assets/javascripts” files, use:
+	(25)	(optional) To make sure webpages load fully before functionality becomes available, in “app/assets/javascripts” files, use:
 
 			$(document).ready(function() {
 
@@ -316,7 +313,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			});
 
 
-	(27)	(optional) HTML5 Shim
+	(26)	(optional) HTML5 Shim
 
 			To help tackle problems in redering older browser than IE9:
 
@@ -336,7 +333,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			<%= render 'layouts/shim' %>
 
 
-	(28)    . . .
+	(27)    . . .
 
 
 
