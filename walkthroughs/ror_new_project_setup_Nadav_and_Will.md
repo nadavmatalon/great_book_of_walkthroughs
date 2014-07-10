@@ -309,9 +309,10 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
 
-			(content was taken from: https://code.google.com/p/html5shim/)
+			(content taken from: https://code.google.com/p/html5shim/)
 
-			Add the following line in “app/views/layouts/application.html.erb” to the end of the <head> section:
+			Add the following line in “app/views/layouts/application.html.erb” at the end of the <head> section:
+
 			(note that this is the <head> section and not the <header> section)
 
 			<%= render 'layouts/shim' %>
