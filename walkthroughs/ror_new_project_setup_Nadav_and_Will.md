@@ -108,6 +108,8 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			 	# gem 'rails_12factor'	 #	not necessary for now (will only be needed for deployment)
 			end
 
+		(Important: Make sure to remove Duplications, e.g. 'sdocs', 'spring')
+
 
 	(5)	Terminal> 	bundle install
 
