@@ -212,9 +212,19 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 	(16)	(optional - but important!) 	
 
-			On some (most?) systems, the previous command (bin/rake db:create) will only create a 'development' database.
+			Sometimes the previous command (bin/rake db:create) will only create a 'development' database.
 
-			To create a 'test' database as well (needed for Rspec testing and possibly other things), run:
+			To check if the 'test' database already exists:
+
+				Terminal>		psql
+
+				Terminal # >	\list
+
+			check if '[project_name_lower_case]_test' is already on the list and exit psql mode:
+
+				Terminal # >	\q
+
+			If not, to create the 'test' database (needed for Rspec testing and possibly other things):
 
 				Terminal> 	bin/rake db:create RAILS_ENV=test
 
