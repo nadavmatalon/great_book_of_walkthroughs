@@ -89,7 +89,7 @@ Vaidas	- 	Working with Json
 
 ?   	- 	Ruby on Rails: Partials
 
-?   	-	Capybara
+?   	-	Capybara 
 
 ?    	-	Sinatra
 
