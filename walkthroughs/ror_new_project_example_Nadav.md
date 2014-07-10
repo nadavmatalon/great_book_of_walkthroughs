@@ -29,6 +29,30 @@ To set up a new Runy on Rails project with postgresql databases:
 
 	(1)	Terminal>	rails new [name_of_project_lower_case] -T -d postgresql
 
+		Alternatively, it is possible to create defualt settings for all new rails
+		projects as follows:
+
+		Terminal> cd ~
+
+		Terminal> ls -a 	// check if there's a file called: ".railsrc" - if not:
+							   create it with: 		Terminal> 	touch .railsrc
+							   and open it with: 	Terminal> 	subl .railsrc	
+
+		Add the following content to the ".railsrc":
+
+		-d postgresql		// sets the database to postresql
+
+		-T  				// don't include default testing units (if using Rspec)
+
+		-B  				// skips immidiate bundle install right after project creation
+
+
+		Save the ".railsrc" file and close it.
+
+		From now on it's possible to simply use: 	
+
+		Terminal> 	rails [new name_of_project_lower_case]
+
 
 	(2)	Terminal>	cd [name_of_project_lower_case]
 
@@ -121,7 +145,7 @@ To set up a new Runy on Rails project with postgresql databases:
 			--require spec_helper
 
 
-	(9)	In “/app/assets/javascripts/application.js”, remove fourth element and leave only the
+	(9)	In “/app/assets/javascripts/application.js”, remove fourth element ("turbo-links") and leave only the
 		following three:
 
 			//= require jquery
