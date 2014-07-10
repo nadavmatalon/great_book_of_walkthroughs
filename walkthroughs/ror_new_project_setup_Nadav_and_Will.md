@@ -272,7 +272,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 	(21)	(optional) To add a "reset.css" file so as to reset the default css styling of browsers:
 
-			Create a new file: “app/vendor/stylesheets/reset.css”
+			Create a new file: “app/vendor/assets/stylesheets/reset.css”
 			(note that the new file should be located in the 'vendors' folder)
 
 			Copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  (or any other provider you prefer)
