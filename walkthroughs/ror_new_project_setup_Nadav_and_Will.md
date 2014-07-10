@@ -234,11 +234,15 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
  			Terminal>	git init
 
 			Terminal> 	git add .
+
+			Terminal>	git status
+
+			go over the list and make sure "config/secrets.yml" is NOT on it
 			
 			Terminal>	git commit -m "initial commit"
 
 
-	(18)	Set up a Github remote repo and then link them together:
+	(18)	Create a Github remote repo and then link them together:
 
 			Terminal>	git remote add origin [Github_ssh_address_of_repo]
 
