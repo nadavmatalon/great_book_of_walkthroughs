@@ -2,7 +2,7 @@
 ###Ruby On Rails: Setting Up a New Project
 
 
-Main Source:  http://www.railstutorial.org/book/beginning#cha-1_footnote-14
+Main Source:  http://www.railstutorial.org/book/   (note that sometimes you need to refersh a couple of times before the chapters of the book are loaded properly)
 
 
 Note 1: Text in square brackets must be removed completely (including the brackets)
