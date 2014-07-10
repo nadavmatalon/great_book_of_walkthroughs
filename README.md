@@ -67,7 +67,7 @@ James W -	Ruby on Rails: Bootstrap
 
 Kate	-	?
 
-Johann  -  	?
+Johann  -  	Paperclip
 
 Will 	- 	Ruby on Rails: Initial project setup
 
