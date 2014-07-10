@@ -1,5 +1,6 @@
 Creating a form once the initial set up has been completed. <br>
 <br>
+<br>
 **controllername** = the name of the relevent controller<br>
 **pagename** = page where you want to view results<br>
 **field** = Whatever field you want to use<br>
@@ -21,34 +22,34 @@ describe 'creating **controllername**' do<br>
 		expect(page).to have_content 'Example Text'<br>
 	end<br>
 end<br>
-2. rspec
+2. rspec<br>
 3. in **controllername**_controller.rb define a method for new:<br>
 def new<br>
 	@**modelname** = **Modelname**.new <br>
 end<br>
-4. rspec
-5. create new.html.erb in app/views/**controllername**/
-6. rspec
+4. rspec<br>
+5. create new.html.erb in app/views/**controllername**/<br>
+6. rspec<br>
 7. in views/**controllername**/new.html.erb add:<br>
 <%= form_for @**modelname** do |f| %><br>
 	<%= f.label :**field** %>         (repeat this and next line for each field)<br>
 	<%= f.**field_type** :**field** %> <br> 
 <br>
 	<%= f.submit '**buttonname**' %><br>
-<% end %>
-8. rspec
+<% end %><br>
+8. rspec<br>
 9. in **controllername**_controller.rb create create method:<br>
 def create<br>
 <br>
 end<br>
-10. rspec
+10. rspec<br>
 11. in create method add:<br>
 @**modelname** = **Modelname**.new(params[:**modelname**].permit(:**field**))  (add all text fields separated by a comma)<br>
 @**modelname**.save!<br>
 redirect_to posts_path<br>
-12. rspec (should be all clear)
-13. rails s (to see it in your browser)
-14. in browser go to localhost/3000/**controllername** to see a list of the items
+12. rspec (should be all clear)<br>
+13. rails s (to see it in your browser)<br>
+14. in browser go to localhost/3000/**controllername** to see a list of the items<br>
 15. in browser go to localhost/3000/**controllername**/new to see the form
 <br>
 <br>
