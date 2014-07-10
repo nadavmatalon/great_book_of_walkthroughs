@@ -124,7 +124,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 		Terminal>	bundle install
 
-		If using this alternative set of commands, the gems under the'production' group in the Gemfile will be installed Heroku during deployment (in other words, gems in this group will not be installed locally - note that this install must be done on the FIRST bundle install otherwise won't work. Also, note that after the first time, you can use 'buntle install' as usual and 'production' gems will not be installed).
+		If using this alternative set of commands, the gems under the'production' group in the Gemfile will be installed only by Heroku during deployment (in other words, gems in this group will not be installed locally - note that this kind of install must be done on the FIRST bundle install command otherwise won't limit the 'production' gem installation. Also, note that after the first time, you can use just 'buntle install' as usual and 'production' gems will not be installed).
 
 
 	(6)	Terminal> 	bin/rails generate rspec:install
