@@ -73,9 +73,11 @@ Will 	- 	Ruby on Rails: Initial project setup
 
 Julia	-	Rspec Testing?
 
-Margarita 	-
+Margarita 	- ?
 
 Nic 	-	Scraping Websites? (it this the correct term? :-)
+
+Vaidas	- 	Json
 
 ?   	-	Javascript (general guide / concrete examples)
 
