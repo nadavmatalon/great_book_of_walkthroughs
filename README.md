@@ -32,11 +32,11 @@ On the other hand, it's possible that an the exiting materials could serve as a 
 
 To share your walkthrough, simply fork this repository, add your file to the walkthroughs folder, push to your remote repo, send me a pull request and I'll merge it into the general repo.
 
-(4) The walkthroughs themselves need not be long or extensive (though they could be if you prefer to write them that way), nor should they take long to write. The idea is to provide just the basic squence of little steps to guide someone who knows little to nothing about a particular subject.
+(4) The walkthroughs themselves need not be long or extensive (though they could be if you prefer to write them that way), nor should they take long to write. The idea is to provide just the basic squence of little steps to guide someone who knows little to nothing about a particular subject. Alternatively, they could serve as a 'ckecklist' to make sure all the necessary steps have been taken.
 
 For general referece, I attached a partial example under "ror_new_project_Nadav" in the walkthroughs folder (though please bear in mind that it is still in very much in raw form and will require more editing, tweaking & formatting before it's complete).
 
-(5) For now, please use .md file formats for the walkthroughs.
+(5) For now, please use the .md ('markdown') file formats for the walkthroughs.
 
 (6) In terms of content the most important thing is to keep to the "step-by-step" paradigm.
 
@@ -109,6 +109,10 @@ Jamie	-	?
 ?    	-	Sinatra
 
 ?		- 	gmaps (Google maps API)
+
+?		- 	homebrew
+
+
 
 
 
