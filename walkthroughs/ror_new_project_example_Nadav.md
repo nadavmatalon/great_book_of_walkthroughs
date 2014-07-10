@@ -1,5 +1,5 @@
 
-Ruby On Rails: Creating a New Project
+###Ruby On Rails: Setting Up a New Project
 
 
 Main Source:  http://www.railstutorial.org/book/beginning#cha-1_footnote-14
