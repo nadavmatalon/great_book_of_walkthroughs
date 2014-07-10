@@ -77,11 +77,9 @@ Margarita 	- ?
 
 Nic 	-	Scraping Websites? (it this the correct term? :-)
 
-Vaidas	- 	Json
+Vaidas	- 	Working with Json
 
 ?   	-	Javascript (general guide / concrete examples)
-
-?   	- 	Json (general guide / concrete examples)
 
 ?   	-	APIs (general guide / concrete examples)
 
