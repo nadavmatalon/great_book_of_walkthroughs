@@ -104,7 +104,7 @@ Jamie	-	?
 
 ?   	- 	Ruby on Rails: Partials
 
-?    	-	Sinatra
+?    	-	Sinatra (and Shotgun)
 
 ?		- 	gmaps (Google maps API)
 
