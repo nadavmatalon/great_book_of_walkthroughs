@@ -1,6 +1,6 @@
 ## Ruby on Rails Walkthroughs
 
-Will - Initial project setup
+Will - Initial project setup, creating forms
 
 Nadav	-	Initial project setup, Devise (user interface)
 
