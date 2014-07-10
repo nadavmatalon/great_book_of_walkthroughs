@@ -309,7 +309,8 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 			<%= render 'layouts/shim' %>
 
-	(27)
+
+	(27)    . . .
 
 
 
