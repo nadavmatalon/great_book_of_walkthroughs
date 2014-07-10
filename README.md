@@ -34,7 +34,7 @@ To share your walkthrough, simply fork this repository, add your file to the wal
 
 (4) The walkthroughs themselves need not be long or extensive (though they could be if you prefer to write them that way), nor should they take long to write. The idea is to provide just the basic squence of little steps to guide someone who knows little to nothing about a particular subject. Alternatively, they could serve as a 'ckecklist' to make sure all the necessary steps have been taken.
 
-For general referece, I attached a partial example under "ror_new_project_Nadav" in the walkthroughs folder (though please bear in mind that it is still in very much in raw form and will require more editing, tweaking & formatting before it's complete).
+For general referece, I attached a partial example under "ror_new_project_setup_Nadav" in the walkthroughs folder (though please bear in mind that it is still in very much in raw form and will require more editing, tweaking & formatting before it's complete).
 
 (5) For now, please use the .md ('markdown') file formats for the walkthroughs.
 
