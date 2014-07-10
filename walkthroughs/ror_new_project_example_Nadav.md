@@ -27,16 +27,20 @@ To set up a new Runy on Rails project with postgresql databases:
 		Terminal>	gem update rails
 
 
-	(1)	Terminal>	rails new [name_of_project_lower_case] -T -d postgresql
+	(1)	Terminal>	rails new [name_of_project_lower_case] -T -B -d postgresql
 
 		Alternatively, it is possible to create defualt settings for all new rails
 		projects as follows:
 
 		Terminal> cd ~
 
-		Terminal> ls -a 	// check if there's a file called: ".railsrc" - if not:
-							   create it with: 		Terminal> 	touch .railsrc
-							   and open it with: 	Terminal> 	subl .railsrc	
+		Terminal> ls -a 	
+
+		check if there's a file called: ".railsrc" - if not:
+
+			create it with: 	Terminal> 	touch .railsrc
+
+			and open it with: 	Terminal> 	subl .railsrc	
 
 		Add the following content to the ".railsrc" file:
 
