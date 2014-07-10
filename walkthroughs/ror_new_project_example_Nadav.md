@@ -105,7 +105,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 			group :production do
 				# https://github.com/heroku/rails_12factor	
-			 	# gem 'rails_12factor'	 #	not necessary for now (will only be need for deployment)
+			 	# gem 'rails_12factor'	 #	not necessary for now (will only be needed for deployment)
 			end
 
 
