@@ -166,8 +166,8 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 	(9)	Rename the “README.rdoc” file to “README.md”
 
 
-	(10)	In “/app/assets/javascripts/application.js”, remove the third element from 
-	   		the top ("turbo-links") and leave only the following three:
+	(10)	In “/app/assets/javascripts/application.js”, remove the third element from the top ("turbo-links") 
+			and leave only the following three:
 
 			//= require jquery
 			//= require jquery_ujs
@@ -202,12 +202,12 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 	(13)	Terminal> 	rspec  			// this is just to make sure rspec is running correctly
 
 
-	(14)	Terminal> 	bin/rake db:create
-
-
-	(15)	In "config/database.yml", add the following line immidiately after the "pool: 5" line:
+	(14)	In "config/database.yml", add the following line immidiately after the "pool: 5" line:
 
 				host: localhost
+
+
+	(15)	Terminal> 	bin/rake db:create
 
 
 	(16)	(optional - but important!) 	
