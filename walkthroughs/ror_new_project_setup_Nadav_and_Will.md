@@ -261,7 +261,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 				Terminal>	bin/rails console
 
-			To test code and work with 'development' database content without affecting actual contents:
+			To test code and work with 'development' database without affecting its contents:
 
 				Terminal>	bin/rails console --sandbox
 
