@@ -81,7 +81,7 @@ Vaidas	- 	Working with Json
 
 Kate	-	Rspec with Capybara/Poltergeist
 
-Margherita 	- ?
+Margherita 	- TDD with Capybara
 
 Sasha 	-	?
 
@@ -103,8 +103,6 @@ Jamie	-	?
 ?   	- 	Ruby on Rails: Helpers
 
 ?   	- 	Ruby on Rails: Partials
-
-?   	-	Capybara 
 
 ?    	-	Sinatra
 
