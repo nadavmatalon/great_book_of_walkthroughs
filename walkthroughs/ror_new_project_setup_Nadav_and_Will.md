@@ -57,7 +57,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 		From now on it's possible to simply use: 	
 
-		Terminal> 	rails [new name_of_project_lower_case]
+		Terminal> 	rails new [name_of_project_lower_case]
 
 
 	(2)	Terminal>	cd [name_of_project_lower_case]
