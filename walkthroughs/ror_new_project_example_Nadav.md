@@ -16,7 +16,7 @@ Note 2:	If a file's location isn't specified explicitly, that file is in the roo
 Note 3: Do not push to the remote github repo before adding "secrets.yml" to the .gitignore list (step 10)
 
 
-To set up a new Ruby on Rails project with postgresql databases:
+#### Step-by-Step setting up a new Ruby on Rails project with postgresql databases:
 
 	(*)	Check currently installed versions of Ruby and Rails:
 
