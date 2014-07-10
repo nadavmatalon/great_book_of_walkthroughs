@@ -249,7 +249,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 			Terminal>	git push -u origin master	
 
 
-	(19)	Update the “.gitignore” file to include:
+	(19)	(optional) Update the “.gitignore” file to include:
 			(the idea is to have this file in the remote Github repo for other developers to use,
 			but to keep all the changes you might make locally)
 
