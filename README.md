@@ -18,7 +18,7 @@ Beyond its substantial time-saving potential and capacity to serve as an effecti
 
 (to be imporved, revised, updated, and changed in any odd way according to everyone's suggestions)
 
-(1) The walkthough topic could be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
+(1) The walkthough topic can be anything you like, from generic ones like "Setting Up a New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", to example-specific ones like "Using the Github API".
 
 The "Division of Labor" section below lists all the topics which have currently been chosen as well as a few open suggestions (but, once again, you can choose to write about anything you like regardless of these suggestions).
 
@@ -36,17 +36,19 @@ To share your walkthrough, simply fork this repository, add your file to the wal
 
 For general referece, I attached a partial example under "ror_new_project_Nadav" in the walkthroughs folder (though please bear in mind that it is still in very much in raw form and will require more editing, tweaking & formatting before it's complete).
 
-(5) In terms of content the most important thing is to keep to the "step-by-step" paradigm.
+(5) For now, please use .md file formats for the walkthroughs.
 
-(6) Try to provide succinct yet specific information about where each step is taken (terminal, browser, etc - in projects with a large number of files this will be particularly helpful). Another example is adding a link-pointer to the Github repository of a Gem when the latter is to be included in the Gemfile.
+(6) In terms of content the most important thing is to keep to the "step-by-step" paradigm.
 
-(7) Try to offer a clear distinction between essential steps & optional ones.
+(7) Try to provide succinct yet specific information about where each step is taken (terminal, browser, etc - in projects with a large number of files this will be particularly helpful). Another example is adding a link-pointer to the Github repository of a Gem when the latter is to be included in the Gemfile.
 
-(8) A possilble way to write a walkthrough is simply to follow one of the many available screen-casts and iterate each of the steps as they come. In this context, some subsequent editing might be needed in order to make the content generic so that it'll be useful for other project as well.
+(8) Try to offer a clear distinction between essential steps & optional ones.
 
-(9) Another possiblity is to pair up for a few hours and write a walkthrough on a chosen subject together.
+(9) A possilble way to write a walkthrough is simply to follow one of the many available screen-casts and iterate each of the steps as they come. In this context, some subsequent editing might be needed in order to make the content generic so that it'll be useful for other project as well.
 
-(10) The question of how to incorporate testing in these basic walkthroughs is a tricky subject. One approach could be to initially leave testing aside and later create a complementary doc to accompany the main walkthrough in which a list possible tests is given. Another approach may be to combine the testing with the walkthrough itself (the difficulty here is that it may requires constant switching and changing between sublime, terminal and the browser and therefore become very hard to write up succinctly). Hopefully we'll come up with good ways of do this as we go along.
+(10) Another possiblity is to pair up for a few hours and write a walkthrough on a chosen subject together.
+
+(11) The question of how to incorporate testing in these basic walkthroughs is a tricky subject. One approach could be to initially leave testing aside and later create a complementary doc to accompany the main walkthrough in which a list possible tests is given. Another approach may be to combine the testing with the walkthrough itself (the difficulty here is that it may requires constant switching and changing between sublime, terminal and the browser and therefore become very hard to write up succinctly). Hopefully we'll come up with good ways of do this as we go along.
 
 (12) There isn't a specific timeline for all this, but given that it should only take a few hours to write a walkthrough, plus the fact that they'll be very useful to all of us in the next few weeks, it'd be great if we could create as many of them as we can in the comming days.
 
@@ -65,27 +67,38 @@ Nicolai	-	Ruby on Rails:	S3
 
 James W -	Ruby on Rails: Bootstrap
 
-Kate	-	?
-
 Johann  -  	Paperclip
 
-Will 	- 	Ruby on Rails: Initial project setup
+Will 	- 	Ruby on Rails: Initial project setup; Ruby on Rails: Forms
 
 Julia	-	Rspec Testing?
 
-Margarita 	- ?
+Faezrah	- 	Ruby on Rails: Devise
 
 Nic 	-	Scraping Websites? (it this the correct term? :-)
 
 Vaidas	- 	Working with Json
 
+Kate	-	?
+
+Margherita 	- ?
+
+Sasha 	-	?
+
+Federico	-	?
+
+Josh	-	?
+
+Roi 	-	?
+
+James K   -	?
+
+Jamie	-	?
+
+
 ?   	-	Javascript (general guide / concrete examples)
 
 ?   	-	APIs (general guide / concrete examples)
-
-?		- 	gmaps (Google maps API)
-
-?   	-	Ruby on Rails: Devise
 
 ?   	- 	Ruby on Rails: Helpers
 
@@ -95,6 +108,7 @@ Vaidas	- 	Working with Json
 
 ?    	-	Sinatra
 
+?		- 	gmaps (Google maps API)
 
 
 
