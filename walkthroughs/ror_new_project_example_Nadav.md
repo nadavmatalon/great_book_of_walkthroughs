@@ -46,11 +46,11 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 		Put the following content into the ".railsrc" file:
 
-		-d postgresql		// sets the project's database to postresql
+			-d postgresql		// sets the project's database to postresql
 
-		-T  				// doesn't include default testing units (to enable using Rspec)
+			-T  				// doesn't include default testing units (to enable using Rspec)
 
-		-B  				// skips immidiate bundle install right after project creation
+			-B  				// skips immidiate bundle install right after project creation
 
 
 		Save the ".railsrc" file and close it.
