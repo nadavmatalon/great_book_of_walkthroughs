@@ -182,7 +182,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 	(11)	Update the “.gitignore” file to include:
 
 				# Ignore the secrets files.
-					secrets.yml
+ 					/config/secrets.yml
 
 				# Ignore other unneeded files.
 					doc/
