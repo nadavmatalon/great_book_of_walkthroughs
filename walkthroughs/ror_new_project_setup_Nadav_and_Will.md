@@ -127,18 +127,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 		If using this alternative set of commands, the gems under the'production' group in the Gemfile will be installed Heroku during deployment (in other words, gems in this group will not be installed locally - note that this install must be done on the FIRST bundle install otherwise won't work. Also, note that after the first time, you can use 'buntle install' as usual and 'production' gems will not be installed).
 
 
-	(6)	(optional) To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
-
-		Add the following line at the top of “spec/helpers/rspec_helper.rb”:
-
-			require 'rspec/collection_matchers'
-
-		And then:
-
-		Terminal> 	bundle install
-
-
-	(7)	Terminal> 	bin/rails generate rspec:install
+	(6)	Terminal> 	bin/rails generate rspec:install
 
 		Alternative shorthand:
 
@@ -147,11 +136,22 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 		Also, check if the "spec/features" folder exists and if not - create it manually.	
 
 
-	(8)	(optional) Update the “.rspec” file to have the following content:
+	(7)	(optional) Update the “.rspec” file to have the following content:
 
 			--color
 			--format documentation
 			--require spec_helper
+
+
+	(8)	(optional) To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
+
+		Add the following line at the top of “spec/helpers/rspec_helper.rb”:
+
+			require 'rspec/collection_matchers'
+
+		And then:
+
+		Terminal> 	bundle install
 
 
 	(9)	Rename the “README.rdoc” file to “README.md”
