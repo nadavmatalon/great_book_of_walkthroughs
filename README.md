@@ -57,7 +57,7 @@ For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the "w
 
 ### Division of Labor
 
-Nadav	-	Ruby on Rails: 	Initial Project Setup (with psql db)
+Nadav	-	Ruby on Rails: New Project Setup (with psql db)
 
 Julie	-	Ruby on Rails:	Heroku
 
@@ -69,7 +69,7 @@ James W -	Ruby on Rails: Bootstrap
 
 Johann  -  	Paperclip
 
-Will 	- 	Ruby on Rails: Initial project setup; Ruby on Rails: Forms
+Will 	- 	Ruby on Rails: New project setup; Ruby on Rails: Forms
 
 Julia	-	Rspec Testing?
 
@@ -79,7 +79,7 @@ Nic 	-	Scraping Websites? (it this the correct term? :-)
 
 Vaidas	- 	Working with Json
 
-Kate	-	?
+Kate	-	Rspec with Capybara/Poltergeist
 
 Margherita 	- ?
 
