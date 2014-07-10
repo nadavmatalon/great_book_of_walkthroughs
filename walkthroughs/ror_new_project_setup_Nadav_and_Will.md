@@ -95,7 +95,7 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 				# https://github.com/rweng/pry-rails
 				gem 'pry-rails'
 			    # https://github.com/rspec/rspec-collection_matchers
-			    gem 'rspec-collection_matchers'
+			    # gem 'rspec-collection_matchers'
 			end
 
 			group :development do
@@ -149,13 +149,18 @@ Note 3: Do not push to the remote github repo before adding "secrets.yml" to the
 
 	(8)	(optional) To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
 
+		Uncomment this line in the "Gemfile":
+
+			gem 'rspec-collection_matchers'
+
+
 		Add the following line at the top of “spec/helpers/rspec_helper.rb”:
 
 			require 'rspec/collection_matchers'
 
 		And then:
 
-		Terminal> 	bundle install
+			Terminal> 	bundle install
 
 
 	(9)	Rename the “README.rdoc” file to “README.md”
