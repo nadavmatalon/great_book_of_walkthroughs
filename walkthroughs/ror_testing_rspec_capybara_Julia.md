@@ -10,7 +10,7 @@ chosen the Instagram project.
 Initial setup for testing with Rspec
 ------------------------------------
 
-1.  Within **rails\_helper.rb**, and under the section of code with:
+1.  Within **spec/rails\_helper.rb**, and under the section of code with:
 
         RSpec.configure do |config|
 
