@@ -1,7 +1,11 @@
 ## The Great Book of Walkthroughs 
 ###(in the making...)
 
+<<<<<<< HEAD
+Will - Initial project setup, creating forms
+=======
 ### Brief Intro
+>>>>>>> upstream/master
 
 Taking the first steps in any new development domain - be it Ruby, Javascript or Ruby on Rails - is often the hardest part. 
 
