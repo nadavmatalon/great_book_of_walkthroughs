@@ -61,17 +61,17 @@ Nadav	-	Ruby on Rails: New Project Setup (with psql db) - (added - Thanks Will!)
 
 Johann  -  	Paperclip (added - Thanks Johann!)
 
-Julie	-	Ruby on Rails:	Heroku
+Julia	-	Testing Ruby on Rails with Rspec and Capybara (added - Thanks Julia!)
+
+Julie	-	Ruby on Rails:	Pushing to Heroku
 
 Fitsum	-	Ruby on Rails:	Ajax
 
-Nicolai	-	Ruby on Rails:	S3
+Nicolai	-	Ruby on Rails:	Amazon S3
 
 James W -	Ruby on Rails: Bootstrap
 
 Will 	- 	Ruby on Rails: New project setup; Ruby on Rails: Forms
-
-Julia	-	Rspec Testing?
 
 Faezrah	- 	Ruby on Rails: Devise
 
