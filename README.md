@@ -57,7 +57,9 @@ For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the "w
 
 ### Division of Labor
 
-Nadav	-	Ruby on Rails: New Project Setup (with psql db)
+Nadav	-	Ruby on Rails: New Project Setup (with psql db) - (added - Thanks Will!)
+
+Johann  -  	Paperclip (added - Thanks Johann!)
 
 Julie	-	Ruby on Rails:	Heroku
 
@@ -66,8 +68,6 @@ Fitsum	-	Ruby on Rails:	Ajax
 Nicolai	-	Ruby on Rails:	S3
 
 James W -	Ruby on Rails: Bootstrap
-
-Johann  -  	Paperclip
 
 Will 	- 	Ruby on Rails: New project setup; Ruby on Rails: Forms
 
