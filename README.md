@@ -57,7 +57,9 @@ For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the "w
 
 ### Division of Labor
 
-Nadav	-	Ruby on Rails: New Project Setup (with psql db) - (added - Thanks Will!)
+Nadav	-	Ruby on Rails: New Project Setup (with psql db); - (added - Thanks Will!)
+
+			Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)
 
 Johann  -  	Paperclip (added - Thanks Johann!)
 
