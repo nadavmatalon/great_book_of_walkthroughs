@@ -109,10 +109,9 @@ Rspec properly for your RoR app before testing.
 
 STATIC PAGES: RSPEC TESTS
 
-	(1)		If the folder "spec/features" folder doesn't exist yet, create it.
+(1)		If the folder "spec/features" folder doesn't exist yet, create it.
 
-	(2)		In that folder create a new file "spec/features/static_pages_feature_spec.rb"
-			and add the following content:
+(2)		In that folder create a new file "spec/features/static_pages_feature_spec.rb" and add the following content:
 
 	
 require 'rails_helper'
