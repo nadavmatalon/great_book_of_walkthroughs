@@ -75,7 +75,7 @@ Julia	-	Rspec Testing?
 
 Faezrah	- 	Ruby on Rails: Devise
 
-Nic 	-	Scraping Websites? (it this the correct term? :-)
+Nic 	-	Scraping Websites?
 
 Vaidas	- 	Working with Json
 
