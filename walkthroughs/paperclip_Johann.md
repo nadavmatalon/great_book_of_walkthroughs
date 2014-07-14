@@ -59,7 +59,7 @@ How do we start?
 	Paste in your model.rb file (in Instagram app it was our Post.rb file)
 
 (5) Update/migrate database with image file name:
-	command line: bin/rails g 'model_name' 'avatar_name'
+	command line: bin/rails g paperclip 'model_name' 'avatar_name'
 	(avatar here is what we wanted to upload in instagram app => image)
 
 (6) Migrate the database:
