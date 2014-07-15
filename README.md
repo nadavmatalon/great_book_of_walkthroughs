@@ -87,7 +87,7 @@ Margherita 	- TDD with Capybara
 
 Sasha 	-	?
 
-Federico	-	?
+Federico	-	Ruby on Rails: Partials
 
 Josh	-	?
 
@@ -103,8 +103,6 @@ Jamie	-	?
 ?   	-	APIs (general guide / concrete examples)
 
 ?   	- 	Ruby on Rails: Helpers
-
-?   	- 	Ruby on Rails: Partials
 
 ?    	-	Sinatra (and Shotgun)
 
