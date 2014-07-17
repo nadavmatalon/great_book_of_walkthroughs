@@ -65,7 +65,7 @@ Johann  -  	Paperclip (added - Thanks Johann!)
 
 Julia	-	Testing Ruby on Rails with Rspec and Capybara (added - Thanks Julia!)
 
-Julie	-	Ruby on Rails:	Pushing to Heroku
+Julie	-	Ruby on Rails:	Pushing to Heroku (added - Thanks Julie!)
 
 Fitsum	-	Ruby on Rails:	Ajax
 
