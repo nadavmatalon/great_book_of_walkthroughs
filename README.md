@@ -85,9 +85,9 @@ Kate	-	Rspec with Capybara/Poltergeist
 
 Margherita 	- TDD with Capybara
 
-Sasha 	-	?
-
 Federico - Ruby on Rails: Partials
+
+Sasha 	-	?
 
 Josh	-	?
 
