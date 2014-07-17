@@ -87,7 +87,7 @@ Margherita 	- TDD with Capybara
 
 Sasha 	-	?
 
-Federico	-	?
+Federico - Ruby on Rails: Partials
 
 Josh	-	?
 
