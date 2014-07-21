@@ -93,4 +93,11 @@ When that command is finished type heroku open in the terminal to visit the page
 $ heroku open
 
 
+Note: a useful way to debug (even if the build is said to be successfull but app 
+doesn't work is to run:
+
+	Terminal>	heroku run rails console
+
+
+
 
