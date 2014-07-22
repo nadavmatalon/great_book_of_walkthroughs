@@ -5,15 +5,13 @@ Preparing your app --> Adding 'rails_12factor' gem
    
 We need to add 'rails_12factor' gem into our Gemfile to make our app available on Heroku.
 
-group :production do
-	gem ‘rails_12factor’
-end
-
-
 We also need to add the 'Heroku_secrets' gem to bypass the security risk of pushing our secrets to Github before pushing them to Heroku:
 
-group :production do 
+group :production do
+    # https://github.com/heroku/rails_12factor  
+    gem 'rails_12factor'
 	gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+end
 
 
 After adding these gems to the Gemfile, run bundle:
