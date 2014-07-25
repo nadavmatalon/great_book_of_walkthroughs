@@ -61,6 +61,8 @@ Nadav	-	Ruby on Rails: New Project Setup (with psql db); - (added - Thanks Will!
 
 			Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)
 
+			Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick)
+
 Johann  -  	Paperclip (added - Thanks Johann!)
 
 Julia	-	Testing Ruby on Rails with Rspec and Capybara (added - Thanks Julia!)

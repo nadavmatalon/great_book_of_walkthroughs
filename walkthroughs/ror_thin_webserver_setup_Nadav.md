@@ -32,7 +32,7 @@ Thin webserver setup:
 	web: bundle exec thin start -p $PORT
 
 
-(5) In "spec/rails_helper.rb" add the following lines 
+(5) In "/rails_helper.rb" add the following lines 
 		
 		Capybara.server do |app, port|
   			require 'rack/handler/thin'
@@ -48,4 +48,4 @@ Thin webserver setup:
 
 	This server will also listen on localhost:3000 (just like the original WEBbrick server).
 
-
+	(you can continue to use "rails s" as usual, but it will activate the WEBrick instead of the new Thin webserver)
