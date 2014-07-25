@@ -31,7 +31,7 @@ end
 5. create new.html.erb in "app/views/[controller_name]"
 6. rspec
 7. in "views/[controller name]/new.html.erb" add:
-<%= form_for @[model_name] do |f| %>
+<%= form_for @[dd] |f| %>
 	<%= f.label :[field] %>         (repeat this and next line for each field)
 	<%= f.[field_type] :[field] %> 
 

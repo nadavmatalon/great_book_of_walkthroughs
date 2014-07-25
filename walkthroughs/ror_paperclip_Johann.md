@@ -13,9 +13,61 @@ What is it?
 	- Website for overview and installation: https://github.com/thoughtbot/paperclip
 
 
-How do we start?
+Initial setup
 
-(1) We create a features test in our spec directory
+(1)	Imagemagick
+
+	Terminal>	brew install imagemagick
+
+	(if you don’t have “imagemagick” it will install it - if you do, it’ll will tell you it’s already there)
+
+
+(2)	Ghostscript 
+
+	Terminal>	brew install gs
+
+	(if you don’t have “gs” it will install it - if you do, it’ll will tell you it’s already there)
+
+
+(3) To verify the ImageMagick Convert Command-Line Tool works as it should run:
+
+	Terminal>	which convert 
+
+    This should return something like:
+
+		/usr/local/bin/convert
+
+
+(4)	To verify that file types can be checked in Bash Shell:
+
+	Assuming that you have a README.rdoc file in your main folder, run the following line:
+
+	(if not, pick any other file you have in the current folder and change the file name accordingly)
+
+	Terminal>	[ -f README.rdoc ] && echo "Found" || echo "Not found"
+
+	This command should return “found”
+
+
+(5) Add the "paperclip" gem to the Gemfile: 
+
+		#https://github.com/thoughtbot/paperclip
+		gem "paperclip", github: 'thoughtbot/paperclip'
+	
+	NB! There is a bug in main rails gem, therefore we need to get it from github/thoughtbot/paperclip
+
+
+(6)	Terminal>	bundle install
+
+
+(7)	Restart the Rails server:
+
+	Terminal>	bin/rails server
+
+
+So how do we start?
+
+(1) We create a features test in our spec directory:
 
 		it 'should be able to create posts and add photos' do
 			visit '/posts/new'
@@ -37,15 +89,7 @@ How do we start?
 			expect(page).to have_css 'img.uploaded-pic'
 		end
 
-(2) Need to install imagemagick (an image library for paperclip to work):
-	
-	Terminal command: brew install imagemagick
 
-(3) Install gem in gemfile: gem "paperclip", github: 'thoughtbot/paperclip'
-	
-	NB! There is a bug in main rails gem, therefore we need to get it from github/thoughtbot/paperclip
-	
-	(remember to bundle)
 
 (4) NB! on https://github.com/thoughtbot/paperclip we need to copy from the Quick 
 	
