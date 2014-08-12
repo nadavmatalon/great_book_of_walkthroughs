@@ -7,7 +7,7 @@ Written by: [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com
 __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example](http://www.railstutorial.org/book/)
 
 
-## General Notes
+### General Notes
 
 * These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) 
 or later.
@@ -15,8 +15,11 @@ or later.
 in the first step.
 * If a file's location within the file system isn't specified explicitly, that file is 
 in the root director of the project.
+* The following uses [Sublime Text](http://www.sublimetext.com/3) as the text editor of choice. However, you can use whichever
+text editor you like.
 * It is strongly recommended <strong>not to push the remote github repo</strong> before 
 adding the `config/secrets.yml` file to the .gitignore list (See: step 10).
+
 
 
 ### Creating a New Project
@@ -41,10 +44,10 @@ To update your installation of Rails:
 $ gem update rails
 ```
 
-<br/>
-#### Generating the Basic Framework
 
-To create a new directory with all the default Rails files, run:
+#### Generating the Basic Rails Framework
+
+To create a new directory with all the default Rails goodies, run:
 
 ```bash
 $ rails new NAME_OF_YOUR_PROJECT -T -B -d postgresql
@@ -84,7 +87,8 @@ Save the file and close it.
 From now on, you can simply use `$ rails new NAME_OF_YOUR_PROJECT` and it will have all 
 the above settings in place: 	
 
-<br/>
+
+
 ####  Setting up the Gemfile
 
 First, go into your project's directory and open it in Sublime Text:
@@ -96,7 +100,7 @@ $ subl .
 
 Next, open the `Gemfile` (in the root directory of your project) and add the following content:
 
-Btw, if you have time, go over the README of these gems (see links above each 
+Btw, if you have time, go over the README's of these gems (see links above each 
 gem below) and verify current versions and updated installation instructions.
 
 ```ruby
@@ -134,7 +138,7 @@ end
 
 group :production do
     # https://github.com/heroku/rails_12factor	
-    # gem 'rails_12factor'	 #	not necessary for now (but will be needed for deployment on Heroku)
+    gem 'rails_12factor'	 #	not necessary for now (but will be needed for deployment on Heroku)
 end
 ```
 
@@ -173,7 +177,7 @@ environment.
 <br/>
 #### Rspec Setup
 
-To set up Rspec for testing your app, run:
+To set up [Rspec](http://rspec.info/) for testing your app, run:
 
 ```bash
 $ bin/rails generate rspec:install
@@ -217,6 +221,7 @@ You should see Rspec running with no tests except the pending ones created autom
 (these pending tests will show in yellow).
 
 
+
 #### README Update
 
 By defualt, Rails generate a README file with an `.rdoc` extension type.
@@ -242,6 +247,7 @@ And in `app/views/layouts/application.html.erb` remove the line with references 
 from the `<head>` section.
 
 
+
 #### Tell Git what to Ignore
 
 Update the `.gitignore` file to include:
@@ -262,6 +268,7 @@ doc/
 
 After implementing this step, it's a good idea to keep a backup of your `secrets.yml` file 
 (e.g. on Google Docs) and to update that backup after any change.
+
 
 
 #### Enable SCSS
@@ -319,6 +326,7 @@ If the `test` database for your project wasn't on the list, create it by running
 $ bin/rake db:create RAILS_ENV=test
 ```
 
+
 #### Create a Local Github Repo
 
 To set up a local Github repo run:
@@ -348,6 +356,7 @@ $ git remote add origin REMOTE_REPO_SSH_OR_HTML_URL
 $ git push -u origin master	
 ```
 
+
 #### Updating the Gitignore File
 
 If you want, you can  update the `.gitignore` file at this point to include:
@@ -363,6 +372,7 @@ all the changes you might make to it locally.
 
 That said, if you do decide to use this option, make sure to keep a backup of your 
 `database.yml` file (e.g. on Google Docs).
+
 
 
 #### Using Rails Console
@@ -388,6 +398,7 @@ Another option is to test code and see the content of `test` database by running
 ```bash
 $ bin/rails console test
 ```
+
 
 #### CSS RESET
 
@@ -429,6 +440,7 @@ $(document).ready(function() {
 });
 ```
 
+
 #### Adding an HTML5 Shim
 
 To help tackle redering problems in IE browsers older than IE9, you can create a new file called 
@@ -451,6 +463,7 @@ the `<head>` section:
 ```
 
 Note that this is the `<head>` section and __not__ the `<header>` section of the `_shim.html` file.
+
 
 
 #### Create an Awesome Project
