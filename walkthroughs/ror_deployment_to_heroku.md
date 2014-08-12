@@ -1,5 +1,7 @@
 Deploying Ruby on Rails with Heroku
 
+Written by: Julie
+
 
 Preparing your app --> Adding 'rails_12factor' gem
    
