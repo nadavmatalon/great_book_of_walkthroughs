@@ -249,7 +249,7 @@ to __turbo-links__ from the `<head>` section.
 
 Update the `.gitignore` file to include:
 
-```
+```yml
 # Ignore the secrets files.
 /config/secrets.yml               #this is important for security reasons (see details below)
 
@@ -312,7 +312,14 @@ If it has, run:
 $# \list
 ```
 
-Check and see if `NAME_OF_YOUR_PROJECT_test` appears on the list and then exit psql mode:
+The last command should give you a list of all the PostgreSQL databases on your machine.
+
+First, make sure that `NAME_OF_YOUR_PROJECT_development` database is listed.
+
+Then check if `NAME_OF_YOUR_PROJECT_test` is also on the list (if not, don't worry - we'll
+create it in a sec).
+
+To exit psql mode run:
 
 ```
 $#	\q
