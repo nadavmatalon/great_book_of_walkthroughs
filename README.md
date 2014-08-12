@@ -1,5 +1,5 @@
 #The Great Book of Walkthroughs 
-<h4>(still in the making...)</h4>
+####(in the making...)
 
 ## Table of Contents
 
@@ -57,7 +57,8 @@ lso be our gift to the next generations of cohorts at Makers Academy.</p>
    (to be imporved, revised, updated, and changed in any odd way according to everyone's 
 suggestions)  
 
-* The walkthough topic can be anything you like, from generic ones like "Setting Up a 
+* __Chosing a Topic__
+   The walkthough topic can be anything you like, from generic ones like "Setting Up a 
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
