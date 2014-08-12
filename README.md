@@ -176,20 +176,25 @@ comming days.
 
 A big thank you to all the contributers:
 
+<a href= "https://github.com/nadavmatalon">
 <img alt="Nadav Matalon" data-user="7" height="20"  
-src="https://avatars3.githubusercontent.com/u/7556253?v=2&amp;s=40" width="20">
+src="https://avatars3.githubusercontent.com/u/7556253?v=2&amp;s=40" width="20"></a>
 [    Nadav Matalon] (https://github.com/nadavmatalon)
 
-<img alt="Will Allen" data-user="7057258" height="20"  src="https://avatars3.githubusercontent.com/u/7057258?v=2&amp;s=40" width="20">
+<a href= "https://github.com/painted">
+<img alt="Will Allen" data-user="7057258" height="20"  src="https://avatars3.githubusercontent.com/u/7057258?v=2&amp;s=40" width="20"></a>
 [    Will Allen] (https://github.com/painted)
 
-<img alt="Johann Bornman" data-user="7556226" height="20"  src="https://avatars3.githubusercontent.com/u/7556226?v=2&amp;s=40" width="20">
+<a href= "https://github.com/jchb9">
+<img alt="Johann Bornman" data-user="7556226" height="20"  src="https://avatars3.githubusercontent.com/u/7556226?v=2&amp;s=40" width="20"><a>
 [    Johann Bornman] (https://github.com/jchb9)
 
-<img alt="Julia Tan" data-user="7389546" height="20"  src="https://avatars3.githubusercontent.com/u/7389546?v=2&amp;s=40" width="20">
+<a href= "https://github.com/juliatan">
+<img alt="Julia Tan" data-user="7389546" height="20"  src="https://avatars3.githubusercontent.com/u/7389546?v=2&amp;s=40" width="20"></a>
 [    Julia Tan] (https://github.com/juliatan)
 
-<img alt="Julie Ann Walker" data-user="7127430" height="20"  src="https://avatars3.githubusercontent.com/u/7127430?v=2&amp;s=40" width="20">
+<a href="https://github.com/julieannwalker">
+<img alt="Julie Ann Walker" data-user="7127430" height="20"  src="https://avatars3.githubusercontent.com/u/7127430?v=2&amp;s=40" width="20"></a>
 [    Julie Ann Walker] (https://github.com/julieannwalker)
 
 
