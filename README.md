@@ -131,13 +131,14 @@ comming days.
 
 The following can be found in the "walkthroughs" folder:  
 
-* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs/ror_new_project_setup.md) (Nadav & Will)
-* [Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)] (walkthroughs/ror_adding_static_pages.md) (Nadav)
-* [Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick)] (walkthroughs/ror_thin_webserver_setup.md) (Nadav)
-* [Ruby on Rails: Basic Form Creation] (walkthroughs/ror_basic_form_creation.md) (Will)
-* [Paperclip] (walkthroughs/ror_paperclip.md) (Johann)
-* [Ruby on Rails: Testing with Rspec & Capybara] (walkthroughs/ror_testing_rspec_capybara.md) (Julia)
-* [Ruby on Rails: Deployment to Heroku] (walkthroughs/ror_deployment_to_heroku.md) (Julie)
+* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs/ror_new_project_setup.md)
+* [Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)] (walkthroughs/ror_adding_static_pages.md)
+* [Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick)] (walkthroughs/ror_thin_webserver_setup.md)
+* [Ruby on Rails: Basic Form Creation] (walkthroughs/ror_basic_form_creation.md)
+* [Ruby on Rails: Testing with Rspec & Capybara] (walkthroughs/ror_testing_rspec_capybara.md)
+* [Ruby on Rails: Deployment to Heroku] (walkthroughs/ror_deployment_to_heroku.md)
+* [Ruby on Rails: Angular Setup] (walkthroughs/ror_angular_setup.md)
+* [Paperclip (Image Management)] (walkthroughs/ror_paperclip.md)
 
 
 ## Still Pending
