@@ -9,15 +9,14 @@ book are loaded properly)
 
 ## General Notes
 
-<ul>
-	<li>These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) or later.</li>
-	<li><text>Text in </text><text style="color:orange;">orange</text> <text>indicated a placeholder for your own text
-		(see example in the first step).</text></li>
-	<li>If a file's location within the file system isn't specified explicitly, that file is 
-		in the root director of the project.</li>
-	<li>It is strongly advised <strong>not to push the remote github repo</strong> before 
-		adding the `config/secrets.yml` file to the .gitignore list (See: step 10).</li>
-</ul>
+* These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) 
+or later.
+* Text in ALL_CAPITALS_AND_UNDERSCORES indicated a placeholder for your own text (see example 
+in the first step.
+* If a file's location within the file system isn't specified explicitly, that file is 
+in the root director of the project.
+* It is strongly recommended <strong>not to push the remote github repo</strong> before 
+adding the `config/secrets.yml` file to the .gitignore list (See: step 10).
 
 
 ## Creating a New Project
@@ -36,7 +35,7 @@ $ rails -v
 ```
 To update installation of Rails:
 
-```
+```bash
 $ gem update rails
 ```
 
