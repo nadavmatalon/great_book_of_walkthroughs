@@ -204,5 +204,3 @@ src="https://avatars3.githubusercontent.com/u/7556253?v=2&amp;s=40" width="20"><
 <img alt="Julie Ann Walker" data-user="7127430" height="20"  src="https://avatars3.githubusercontent.com/u/7127430?v=2&amp;s=40" width="20"></a>
 [    Julie Ann Walker] (https://github.com/julieannwalker)
 
-
-
