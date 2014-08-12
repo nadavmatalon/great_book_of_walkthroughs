@@ -9,16 +9,15 @@ book are loaded properly)
 
 ## General Notes
 
-* These instructions have been written for [Rails 4.0](http://rubyonrails.org/)
-
-* Text in <span style="color:orange;">orange</span> indicated a placeholder for your own text 
-(see example in the first step).
-
-* If a file's location within the file system isn't specified explicitly, that file is in the 
-root director of the project.
-
-* It is strongly advised __not to push the remote github repo__ before adding the 
-`config/secrets.yml` file to the .gitignore list (See: step 10).
+<ul>
+	<li>These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) or later.</li>
+	<li>Text in <span style="color:orange;">orange</span> indicated a placeholder for your own text
+		(see example in the first step).</li>
+	<li>If a file's location within the file system isn't specified explicitly, that file is 
+		in the root director of the project.</li>
+	<li>It is strongly advised <strong>not to push the remote github repo</strong> before 
+		adding the `config/secrets.yml` file to the .gitignore list (See: step 10).</li>
+</ul>
 
 
 ## Creating a New Project
