@@ -1,7 +1,8 @@
 
 #Ruby On Rails: Setting Up a New Project with PostgreSQL databases
 
-Written by: [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com/painted)
+__Written by:__ [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com/painted)
+(May 2014@[Makers Academy](http://www.makersacademy.com/))
 
 
 __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example](http://www.railstutorial.org/book/)
