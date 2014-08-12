@@ -15,313 +15,309 @@ replaced with the user's choice as appropriate (see example in step 1).
 * If a file's location isn't specified explicitly, that file is in the root director 
 of the project.
 
-* __You are strongly advised not push to the remote github repo before adding the 
+* You are strongly advised __not to push the remote github repo__ before adding the 
 "secrets.yml" to the .gitignore list__ (See: step 10)
 
 
-## Setting up a new Ruby on Rails project with PostgreSQL databases:
+## Setting up a new Ruby on Rails project with PostgreSQL databases
 
-	(*)	Check currently installed versions of Ruby and Rails:
+(optional) Check currently installed versions of Ruby and Rails:
 
-		Terminal>	ruby -v
+$ ruby -v
 
-		Terminal>	rails -v
+$ rails -v
 
-		To update installation of Rails:
+To update installation of Rails:
 
-		Terminal>	gem update rails
+$ gem update rails
 
 
-	(1)	Terminal>	rails new [name_of_project_lower_case] -T -B -d postgresql
+$ rails new [name_of_project_lower_case] -T -B -d postgresql
 
-		Alternatively, it is possible to create defualt settings for all new rails
-		projects as follows:
+Alternatively, it is possible to create defualt settings for all new rails
+projects as follows:
 
-		Terminal> cd ~
+$ cd ~
 
-		Terminal> ls -a 	
+$ ls -a 	
 
-		Check if there's a file called: ".railsrc", and if not:
+Check if there's a file called: ".railsrc", and if not:
 
-			create it with: 	Terminal> 	touch .railsrc
+create it with:
 
-			and open it with: 	Terminal> 	subl .railsrc	
+$ touch .railsrc
 
-		Put the following content into the ".railsrc" file:
+and open it with:
 
-			-d postgresql		// sets the project's database to postresql
+$ subl .railsrc	
 
-			-T  				// doesn't include default testing units (to enable using Rspec)
+Put the following content into the ".railsrc" file:
 
-			-B  				// skips immidiate bundle install right after project creation
+-d postgresql		// sets the project's database to postresql
+-T  				// doesn't include default testing units (to enable using Rspec)
+-B  				// skips immidiate bundle install right after project creation
 
 
-		Save the ".railsrc" file and close it.
+Save the ".railsrc" file and close it.
 
-		From now on it's possible to simply use: 	
+From now on it's possible to simply use: 	
 
-		Terminal> 	rails new [name_of_project_lower_case]
+rails new [name_of_project_lower_case]
 
 
-	(2)	Terminal>	cd [name_of_project_lower_case]
+$ cd [name_of_project_lower_case]
 
+$ subl .
 
-	(3)	Terminal> 	subl .
+Update the "Gemfile" file to include:
 
+(in tandem, go over the README of each Gem in the documentation - links above each 
+gem below - and verify current versions and updated installation instructions)
 
-	(4)	Update the "Gemfile" file to include:
+ruby '2.1.1'   	# update this according to currently used Ruby version
 
-		(in tandem, go over the README of each Gem in the documentation - links above each 
-		 gem below - and verify current versions and updated installation instructions)
+group :doc do
+# https://github.com/voloko/sdoc
+gem 'sdoc', '~> 0.4.0'
+end
 
-			ruby '2.1.1'   	# update this according to currently used Ruby version
+group :test do
+# https://github.com/vertis/selenium-webdriver
+# gem 'selenium-webdriver'  # not installed for now
+end
 
-			group :doc do
-				# https://github.com/voloko/sdoc
-				gem 'sdoc', '~> 0.4.0'
-			end
+group :test, :development do
+# https://github.com/rspec/rspec-rails
+gem 'rspec-rails'
+# https://github.com/jnicklas/capybara
+gem 'capybara'
+# https://github.com/cldwalker/debugger
+gem 'debugger'
+# https://github.com/copiousfreetime/launchy
+gem 'launchy'
+# https://github.com/rweng/pry-rails
+gem 'pry-rails'
+# https://github.com/rspec/rspec-collection_matchers
+# gem 'rspec-collection_matchers'
+end
 
-			group :test do
-				# https://github.com/vertis/selenium-webdriver
-				# gem 'selenium-webdriver'  # not installed for now
-			end
+group :development do
+#  https://github.com/rails/spring
+gem 'spring'
+end
 
-			group :test, :development do
-				# https://github.com/rspec/rspec-rails
-				gem 'rspec-rails'
-				# https://github.com/jnicklas/capybara
-				gem 'capybara'
-				# https://github.com/cldwalker/debugger
-				gem 'debugger'
-				# https://github.com/copiousfreetime/launchy
-				gem 'launchy'
-				# https://github.com/rweng/pry-rails
-				gem 'pry-rails'
-			    # https://github.com/rspec/rspec-collection_matchers
-			    # gem 'rspec-collection_matchers'
-			end
+group :production do
+# https://github.com/heroku/rails_12factor	
+# gem 'rails_12factor'	 #	not necessary for now (will only be needed for deployment)
+end
 
-			group :development do
-				#  https://github.com/rails/spring
-				gem 'spring'
-			end
+(Important: Make sure to remove Duplications, e.g. 'sdocs', 'spring')
 
-			group :production do
-				# https://github.com/heroku/rails_12factor	
-			 	# gem 'rails_12factor'	 #	not necessary for now (will only be needed for deployment)
-			end
+After saving the file, run:
 
-		(Important: Make sure to remove Duplications, e.g. 'sdocs', 'spring')
+$ bundle install
 
+(If the Bundler complains about a 'readline' error, try adding the gem 'rb-readline'
+to the Gemfile and do a bundle install)	
 
-	(5)	Terminal> 	bundle install
+(optional) bundle install commands:
 
-		(If the Bundler complains about a 'readline' error, try adding the gem 'rb-readline'
-		 to the Gemfile and do a bundle install)	
+$ bundle install --without production
 
-		(optional) bundle install commands:
+$ bundle update
 
-		Terminal>	bundle install --without production
+$ bundle install
 
-		Terminal>	bundle update
+If using this alternative set of commands, the gems under the'production' group in 
+the Gemfile will be installed only by Heroku during deployment (in other words, 
+gems in this group will not be installed locally - note that this kind of install 
+must be done on the FIRST bundle install command otherwise won't limit the 'production' 
+gem installation. Also, note that after the first time, you can use just 'buntle install' 
+as usual and 'production' gems will not be installed).
 
-		Terminal>	bundle install
+$ bin/rails generate rspec:install
 
-		If using this alternative set of commands, the gems under the'production' group in the Gemfile will be 
-		installed only by Heroku during deployment (in other words, gems in this group will not be installed locally - 
-		note that this kind of install must be done on the FIRST bundle install command otherwise won't limit 
-		the 'production' gem installation. Also, note that after the first time, you can use just 'buntle install' 
-		as usual and 'production' gems will not be installed).
+Alternative shorthand:
 
+$ bin/rails g rspec:install
 
-	(6)	Terminal> 	bin/rails generate rspec:install
 
-		Alternative shorthand:
+Also, check if the "spec/features" folder exists and if not - create it manually.	
 
-		Terminal>	bin/rails g rspec:install
+(optional) Update the “.rspec” file to have the following content:
 
-		Also, check if the "spec/features" folder exists and if not - create it manually.	
+--color
+--format documentation
+--require spec_helper
 
+(optional) To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
 
-	(7)	(optional) Update the “.rspec” file to have the following content:
+Uncomment this line in the "Gemfile":
 
-			--color
-			--format documentation
-			--require spec_helper
+gem 'rspec-collection_matchers'
 
 
-	(8)	(optional) To install “rspec-collection_matchers” gem (extends syntax for rspec testing):
+Add the following line at the top of “spec/helpers/rspec_helper.rb”:
 
-		Uncomment this line in the "Gemfile":
+require 'rspec/collection_matchers'
 
-			gem 'rspec-collection_matchers'
+And now time to bundle again:
 
+$ bundle install
 
-		Add the following line at the top of “spec/helpers/rspec_helper.rb”:
 
-			require 'rspec/collection_matchers'
+(optional) Rename the “README.rdoc” file to “README.md”
 
-		And then:
+In “/app/assets/javascripts/application.js”, remove the third element from the 
+top ("turbo-links") and leave only the following three:
 
-			Terminal> 	bundle install
+//= require jquery
+//= require jquery_ujs
+//= require_tree .
 
+And in "app/views/layouts/application.html.erb":
 
-	(9)	(optional) Rename the “README.rdoc” file to “README.md”
+remove the references to ‘turbo links’ from the `<head>` section
 
+Update the “.gitignore” file to include:
 
-	(10)	In “/app/assets/javascripts/application.js”, remove the third element from the top ("turbo-links") 
-			and leave only the following three:
+# Ignore the secrets files.
+/config/secrets.yml
 
-			//= require jquery
-			//= require jquery_ujs
-			//= require_tree .
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
 
+(optional) Add “.scss” to the following file: "app/assets/stylesheets/application.css”
 
-			And in "app/views/layouts/application.html.erb":
+(end-result: "application.css.scss")
 
-			remove the references to ‘turbo links’ from the <head> section
 
+Make sure rspec is running correctly:
 
-	(11)	Update the “.gitignore” file to include:
+$ rspec
 
-				# Ignore the secrets files.
- 					/config/secrets.yml
 
-				# Ignore other unneeded files.
-					doc/
-					*.swp
-					*~
-					.project
-					.DS_Store
-					.idea
-					.secret
+In "config/database.yml", add the following line immidiately after the "pool: 5" line:
 
+host: localhost
 
-	(12)	(optional) Add “.scss” to the following file: "app/assets/stylesheets/application.css”
 
-			(end-result: "application.css.scss")
+$ bin/rake db:create
 
 
-	(13)	Terminal> 	rspec  			// this is just to make sure rspec is running correctly
+(optional - but important!) 	
 
+Sometimes the previous command (bin/rake db:create) will only create a 'development' database.
 
-	(14)	In "config/database.yml", add the following line immidiately after the "pool: 5" line:
+To check if the 'test' database already exists:
 
-				host: localhost
+$ psql
 
+$# \list
 
-	(15)	Terminal> 	bin/rake db:create
+check if '[project_name_lower_case]_test' is already on the list and exit psql mode:
 
+$#	\q
 
-	(16)	(optional - but important!) 	
+If not, to create the 'test' database (needed for Rspec testing and possibly other things):
 
-			Sometimes the previous command (bin/rake db:create) will only create a 'development' database.
+$ bin/rake db:create RAILS_ENV=test
 
-			To check if the 'test' database already exists:
 
-				Terminal>		psql
+Set up a local Github repo:
 
-				Terminal # >	\list
+$ git init
 
-			check if '[project_name_lower_case]_test' is already on the list and exit psql mode:
+$ git add .
 
-				Terminal # >	\q
+$ git status
 
-			If not, to create the 'test' database (needed for Rspec testing and possibly other things):
-
-				Terminal> 	bin/rake db:create RAILS_ENV=test
-
-
-	(17)	Set up a local Github repo:
-
- 			Terminal>	git init
-
-			Terminal> 	git add .
-
-			Terminal>	git status
-
-			go over the list and make sure "config/secrets.yml" is NOT on it
+go over the list and make sure "config/secrets.yml" is NOT on it
 			
-			Terminal>	git commit -m "initial commit"
+$ git commit -m "initial commit"
 
 
-	(18)	Create a Github remote repo and then link them together:
+Create a Github remote repo and then link them together:
 
-			Terminal>	git remote add origin [Github_ssh_address_of_repo]
+$ git remote add origin [Github_ssh_address_of_repo]
 
-			Terminal>	git push -u origin master	
-
-
-	(19)	(optional) Update the “.gitignore” file to include:
-			(the idea is to have this file in the remote Github repo for other developers to use,
-			but to keep all the changes you might make locally)
-
-			# Ignore the secrets files.
-				/config/database.yml
+$ git push -u origin master	
 
 
-	(20)	(optional) To test code and check the content of the development database:
+(optional) Update the “.gitignore” file to include:
+(the idea is to have this file in the remote Github repo for other developers to use, 
+but to keep all the changes you might make locally)
 
-				Terminal>	bin/rails console
-
-			To test code and work with 'development' database without affecting its contents:
-
-				Terminal>	bin/rails console --sandbox
-
-			To test code and see content of 'test' database:
-
-				Terminal>	bin/rails console test
+# Ignore the secrets files.
+/config/database.yml
 
 
-	(21)	(optional) To add a "reset.css" file so as to reset the default css styling of browsers:
+(optional) To test code and check the content of the development database:
 
-			Create a new file: “app/vendor/assets/stylesheets/reset.css”
-			(note that the new file should be located in the 'vendors' folder)
+$ bin/rails console
 
-			Copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  (or any other provider you prefer)
+To test code and work with 'development' database without affecting its contents:
 
-			(updated content for the file: http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/)
+$ bin/rails console --sandbox
 
-			In "app/assets/stylesheets/application.css.scss", add the following line ABOVE the other two existing lines as follows:
+To test code and see content of 'test' database:
+
+$ bin/rails console test
+
+
+(optional) To add a "reset.css" file so as to reset the default css styling of browsers:
+
+Create a new file: “app/vendor/assets/stylesheets/reset.css”
+(note that the new file should be located in the 'vendors' folder)
+
+Copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  (or any other provider you prefer)
+
+(updated content for the file: http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/)
+
+In "app/assets/stylesheets/application.css.scss", add the following line ABOVE the other two existing lines as follows:
 		
-				*= require reset
-				*= require_tree .
-				*= require_self
+*= require reset
+*= require_tree .
+*= require_self
 
-			(if the '*=require reset' line is not located above all the other 'require' lines, it WILL mess up your css styling and browser rendering)
-
-
-	(22)	(optional) To make sure webpages load fully before functionality becomes available, in “app/assets/javascripts” files, use:
-
-			$(document).ready(function() {
-
-				[js code]
-
-			});
+(if the '*=require reset' line is not located above all the other 'require' lines, it WILL mess up your css styling and browser rendering)
 
 
-	(23)	(optional) HTML5 Shim
+(optional) To make sure webpages load fully before functionality becomes available, in “app/assets/javascripts” files, use:
+```javascript
+$(document).ready(function() {
+[js code]
+});
+```
 
-			To help tackle problems in redering older browser than IE9:
+(optional) HTML5 Shim
 
-			Create a new file: “app/views/layouts/_shim.html.erb” 
+To help tackle redering problems in browser older than IE9:
 
-			Add the following content (known as: “HTML5 shim”):
+Create a new file: “app/views/layouts/_shim.html.erb” 
+Add the following content (known as: “HTML5 shim”):
 
-			<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			<![endif]-->
+```html
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+```
 
-			(content taken from: https://code.google.com/p/html5shim/)
+(Source: https://code.google.com/p/html5shim/)
 
-			Add the following line in “app/views/layouts/application.html.erb” at the end of the <head> section:
+Add the following line in “app/views/layouts/application.html.erb” 
+at the end of the `<head>` section:
 
-			(note that this is the <head> section and not the <header> section)
+note that this is the `<head>` section and not the `<header>` section of the _shim.html file.
 
-			<%= render 'layouts/shim' %>
-
-
-	(24)    . . .
+<%= render 'layouts/shim' %>
 
 
+And you're good to go :-)
 
