@@ -1,6 +1,8 @@
 
 ###Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)
 
+Written by: Nadav
+
 
 Please refer to the [New Project Setup walkthrough](https://github.com/nadavmatalon/great_book_of_walkthroughts/blob/master/walkthroughs/ror_new_project_setup_Nadav_and_Will.md) to ensure you have installed
 Rspec properly for your RoR app before testing.
