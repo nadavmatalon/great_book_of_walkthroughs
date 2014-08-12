@@ -131,7 +131,7 @@ comming days.
 
 The following can be found in the "walkthroughs" folder:  
 
-* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs /ror_new_project_setup_Nadav_and_Will.md) (Nadav & Will)
+* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs/ror_new_project_setup_Nadav_and_Will.md) (Nadav & Will)
 * Ruby on Rails: Adding Static Pages (Home, About, Contact, Help) (Nadav)
 * Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick) (Nadav)
 * Ruby on Rails: Forms (Will)
