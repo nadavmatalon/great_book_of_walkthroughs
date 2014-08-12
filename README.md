@@ -181,7 +181,7 @@ Pick whatever you like & write a walkthrough:
 
 ## Contributors
 
-A big thank you to all the contributers:
+A big thank you to all our contributors:
 
 <a href= "https://github.com/nadavmatalon">
 <img alt="Nadav Matalon" data-user="7" height="20"  
