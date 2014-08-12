@@ -1,5 +1,6 @@
 
-#Ruby On Rails: Setting Up a New Project with a PostgreSQL Database
+#Ruby On Rails:  
+Setting Up a New Project with a PostgreSQL Database
 
 __Written by:__ [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com/painted)
 (May 2014@[Makers Academy](http://www.makersacademy.com/))
