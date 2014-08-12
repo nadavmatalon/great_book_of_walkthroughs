@@ -1,11 +1,11 @@
 
 #Ruby On Rails: Setting Up a New Project with PostgreSQL databases
 
-Written by: Nadav & Will
+Written by: [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com/painted)
 
-Main Source:  http://www.railstutorial.org/book/   
-(note that sometimes you need to refersh a couple of times before the chapters of the 
-book are loaded properly)
+
+__Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example](http://www.railstutorial.org/book/)
+
 
 ## General Notes
 
@@ -41,6 +41,7 @@ To update your installation of Rails:
 $ gem update rails
 ```
 
+<br/>
 #### Generating the Basic Framework
 
 To create a new directory with all the default Rails files, run:
@@ -83,7 +84,7 @@ Save the file and close it.
 From now on, you can simply use `$ rails new NAME_OF_YOUR_PROJECT` and it will have all 
 the above settings in place: 	
 
-
+<br/>
 ####  Setting up the Gemfile
 
 First, go into your project's directory and open it in Sublime Text:
@@ -169,6 +170,7 @@ as usual and the 'production' gems will not be installed until deployment to the
 environment.
 
 
+<br/>
 #### Rspec Setup
 
 To set up Rspec for testing your app, run:
