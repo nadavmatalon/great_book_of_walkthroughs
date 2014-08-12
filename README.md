@@ -61,7 +61,7 @@ suggestions)
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
-   The "List of Walkthroughs", "Still Pending" & "Suggested Topics" sections below lists 
+   The [Current Walkthroughs](#current-walkthroughs) "Current Walkthroughs", "Still Pending" & "Suggested Topics" sections below lists 
 all the topics which have currently been chosen as well as a few open suggestions 
 (but, once again, you can choose to write about anything you like regardless of these suggestions).  
 
@@ -131,7 +131,7 @@ comming days.
 
 The following can be found in the "walkthroughs" folder:  
 
-* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs/ror_new_project_setup.md)
+* [Ruby on Rails: New Project Setup (with PostgreSQL db)] (walkthroughs/ror_new_project_setup.md)
 * [Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)] (walkthroughs/ror_adding_static_pages.md)
 * [Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick)] (walkthroughs/ror_thin_webserver_setup.md)
 * [Ruby on Rails: Basic Form Creation] (walkthroughs/ror_basic_form_creation.md)
