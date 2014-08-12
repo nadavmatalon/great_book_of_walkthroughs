@@ -11,8 +11,8 @@ book are loaded properly)
 
 <ul>
 	<li>These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) or later.</li>
-	<li>Text in <span style="color:orange;">orange</span> indicated a placeholder for your own text
-		(see example in the first step).</li>
+	<li><text>Text in </text><text style="color:orange;">orange</text> <text>indicated a placeholder for your own text
+		(see example in the first step).</text></li>
 	<li>If a file's location within the file system isn't specified explicitly, that file is 
 		in the root director of the project.</li>
 	<li>It is strongly advised <strong>not to push the remote github repo</strong> before 
