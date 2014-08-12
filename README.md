@@ -54,8 +54,8 @@ lso be our gift to the next generations of cohorts at Makers Academy.</p>
 
 ## Guidelines
 
-<p>(to be imporved, revised, updated, and changed in any odd way according to everyone's 
-suggestions)</p>
+   (to be imporved, revised, updated, and changed in any odd way according to everyone's 
+suggestions)  
 
 * The walkthough topic can be anything you like, from generic ones like "Setting Up a 
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
@@ -129,7 +129,7 @@ comming days.
 
 ## Current Walkthroughs
 
-The following can be found in the "walkthroughs" folder:
+   The following can be found in the "walkthroughs" folder:  
 
 * Ruby on Rails: New Project Setup (with psql db) (Nadav & Will)
 * Ruby on Rails: Adding Static Pages (Home, About, Contact, Help) (Nadav)
@@ -142,7 +142,7 @@ The following can be found in the "walkthroughs" folder:
 
 ## Still Pending
 
-(People who promised to write walkthroughs but haven't delivered yet...)
+   (People who promised to write walkthroughs but haven't delivered yet...)  
 
 * Ruby on Rails: Ajax (Fitsum)	
 * Ruby on Rails: Amazon S3 (Nicolai)
@@ -157,7 +157,7 @@ The following can be found in the "walkthroughs" folder:
 
 ## Available Topics
 
-Pick whatever you like & write a walkthrough:
+   Pick whatever you like & write a walkthrough:  
 
 * Javascript (general guide / concrete examples)
 * APIs (general guide / concrete examples)
@@ -179,6 +179,6 @@ A big thank you to all the contributers:
 * [Nadav Matalon] (https://github.com/nadavmatalon)
 * [Will Allen] (https://github.com/painted)
 * [Johann Bornman] (https://github.com/jchb9)
-*[Julia Tan] (https://github.com/juliatan)
+* [Julia Tan] (https://github.com/juliatan)
 * [Julie Ann Walker] (https://github.com/julieannwalker)
 
