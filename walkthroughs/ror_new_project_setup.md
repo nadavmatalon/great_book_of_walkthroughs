@@ -11,14 +11,14 @@ __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example]
 
 * These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) 
 or later.
-* Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text (see example 
-in the first step.
+* Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text 
+(see [Generating the Basic Rails Framework](###generating-the-basic-rails-framework) below)
 * If a file's location within the file system isn't specified explicitly, that file is 
 in the root director of the project.
 * The following uses [Sublime Text](http://www.sublimetext.com/3) as the text editor of choice. However, you can use whichever
 text editor you like.
 * It is strongly recommended <strong>not to push the remote github repo</strong> before 
-adding the `config/secrets.yml` file to the .gitignore list (See: step 10).
+adding the `config/secrets.yml` file to the .gitignore list (See: [Tell Git what to Ignore](###tell-git-what-to-ignore) below).
 
 
 
@@ -86,7 +86,6 @@ Save the file and close it.
 
 From now on, you can simply use `$ rails new NAME_OF_YOUR_PROJECT` and it will have all 
 the above settings in place: 	
-
 
 
 ####  Setting up the Gemfile
@@ -174,7 +173,6 @@ as usual and the 'production' gems will not be installed until deployment to the
 environment.
 
 
-<br/>
 #### Rspec Setup
 
 To set up [Rspec](http://rspec.info/) for testing your app, run:
@@ -304,6 +302,7 @@ To check if the `test` database already exists run:
 
 ```bash
 $ psql
+```
 
 Note that the `command promot` should change to indicate that you've entered the _psql 
 environment_.
