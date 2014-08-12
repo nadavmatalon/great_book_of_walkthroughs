@@ -1,6 +1,8 @@
 
 ###Ruby On Rails: Setting Thin Webserver
 
+Written by: Nadav
+
 By default, Rails 4 (and Heroku) use WEBrick as the webserver.
 
 However, according to Heroku documentation:
