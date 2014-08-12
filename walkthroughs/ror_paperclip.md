@@ -1,5 +1,7 @@
 Paperclip:
 
+Written by: Johann
+
 What is it?
 
 	- Easy file attachment library for Active Record
