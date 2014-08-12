@@ -81,14 +81,14 @@ screen-casts and iterate each of the steps as they come. In this context,
 some subsequent editing might be needed in order to make the content generic so that 
 it'll be useful for other project as well.
 
-* __Availability__  
+* __Availability__   
    All walkthroughs will be available on this Github repo.  
 
    To share your walkthrough, simply fork this repository, add your file to the 
 walkthroughs folder, push to your remote repo, send me a pull request and I'll 
 merge it into the general repo.  
 
-* __What's in a Walkthrough__  
+* __What's in a Walkthrough__   
    The walkthroughs themselves need not be long or extensive (though they could be if 
 you prefer to write them that way), nor should they take long to write. The idea is to 
 provide just the basic squence of little steps to guide someone who knows little to 
@@ -98,10 +98,10 @@ to make sure all the necessary steps have been taken.
    For general referece, you can check out [Ruby on Rails: New Project Setup (with PostgreSQL db)] (walkthroughs/ror_new_project_setup.md) which is located in the "walkthroughs" folder (it 
 should be formatted in a nicer way, but overall it should contain all the important steps).  
 
-* __File Format__
+* __File Format__   
    For now, please use the .md ('markdown') file formats for the walkthroughs.
 
-* __Content__  
+* __Content__   
    In terms of content the most important thing is to keep to the "step-by-step" paradigm.
 
    Try to provide succinct yet specific information about where each step is taken 
@@ -111,7 +111,7 @@ repository of a Gem when the latter is to be included in the Gemfile.
 
    Also, try to offer a clear distinction between essential steps & optional ones.
 
-* __Testing__
+* __Testing__   
    The question of how to incorporate testing in these basic walkthroughs is a tricky 
 subject. One approach could be to initially leave testing aside and later create 
 a complementary doc to accompany the main walkthrough in which a list possible tests 
@@ -120,16 +120,16 @@ is given. Another approach may be to combine the testing with the walkthrough it
 Sublime Text, terminal and the browser and therefore become very hard to write up succinctly). 
 hopefully we'll come up with good ways of do this as we go along.
 
-* __Timeline__
+* __Timeline__   
    There isn't a specific timeline for all this, but given that it should only take a few h
 ours to write a walkthrough, plus the fact that they'll be very useful to all of us in 
 the next few weeks, it'd be great if we could create as many of them as we can in the 
 comming days.
 
-* __Pair Writing__
+* __Pair Writing__   
    Another great possiblity for writing a walkthough is to pair up for a few hours and write a walkthrough on a chosen subject together.
 
-* __Feedback__
+* __Feedback__   
    Please let me know about any suggestions, improvements, corrections etc. that you may have :-)
 
 
