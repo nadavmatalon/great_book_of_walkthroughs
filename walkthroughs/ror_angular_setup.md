@@ -1,6 +1,8 @@
 
 Ruby On Rails: Angular
 
+Written by: Nadav
+
 In "app/views/layouts/application.html.erb":
 
 <html ng-app="NameOFApp">
