@@ -1,5 +1,5 @@
 
-#Ruby On Rails: Setting Up a New Project
+#Ruby On Rails: Setting Up a New Project with PostgreSQL databases
 
 Written by: Nadav & Will
 
@@ -9,28 +9,37 @@ book are loaded properly)
 
 ## General Notes
 
-* Text in square brackets must be removed completely (including the brackets) and 
-replaced with the user's choice as appropriate (see example in step 1).
+* These instructions have been written for [Rails 4.0](http://rubyonrails.org/)
 
-* If a file's location isn't specified explicitly, that file is in the root director 
-of the project.
+* Text in <span style="color:orange;">orange</span> indicated a placeholder for your own text 
+(see example in the first step).
 
-* You are strongly advised __not to push the remote github repo__ before adding the 
-"secrets.yml" to the .gitignore list (See: step 10)
+* If a file's location within the file system isn't specified explicitly, that file is in the 
+root director of the project.
+
+* It is strongly advised __not to push the remote github repo__ before adding the 
+`config/secrets.yml` file to the .gitignore list (See: step 10).
 
 
-## Setting up a new Ruby on Rails project with PostgreSQL databases
+## Creating a New Project
 
-(optional) Check currently installed versions of Ruby and Rails:
+### Preliminary Steps
 
+It is always good to check which versions of Ruby and Rails are currently installed 
+(and that they are indeed installed).
+
+To do this, run:
+
+```bash
 $ ruby -v
 
 $ rails -v
-
+```
 To update installation of Rails:
 
+```
 $ gem update rails
-
+```
 
 $ rails new [name_of_project_lower_case] -T -B -d postgresql
 
@@ -296,7 +305,7 @@ In "app/assets/stylesheets/application.css.scss", add the following line ABOVE t
 ```
 
 (if the `*=require reset` line is not located above all the other 'require' lines, 
-it __WILL MESS UP__ your css styling and browser rendering)
+it __will mess up__ your css styling and browser rendering)
 
 
 (optional) To make sure webpages load fully before functionality becomes available, 
