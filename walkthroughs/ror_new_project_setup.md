@@ -16,7 +16,7 @@ replaced with the user's choice as appropriate (see example in step 1).
 of the project.
 
 * You are strongly advised __not to push the remote github repo__ before adding the 
-"secrets.yml" to the .gitignore list__ (See: step 10)
+"secrets.yml" to the .gitignore list (See: step 10)
 
 
 ## Setting up a new Ruby on Rails project with PostgreSQL databases
@@ -185,7 +185,7 @@ remove the references to ‘turbo links’ from the `<head>` section
 
 Update the “.gitignore” file to include:
 
-```ruby
+```
 # Ignore the secrets files.
 /config/secrets.yml
 
@@ -260,9 +260,10 @@ $ git push -u origin master
 (the idea is to have this file in the remote Github repo for other developers to use, 
 but to keep all the changes you might make locally)
 
+```
 # Ignore the secrets files.
 /config/database.yml
-
+```
 
 (optional) To test code and check the content of the development database:
 
@@ -288,13 +289,13 @@ Copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  
 
 In "app/assets/stylesheets/application.css.scss", add the following line ABOVE the other two existing lines as follows:
 
-```ruby	
+```css
 *= require reset
 *= require_tree .
 *= require_self
 ```
 
-(if the '*=require reset' line is not located above all the other 'require' lines, 
+(if the `*=require reset` line is not located above all the other 'require' lines, 
 it __WILL MESS UP__ your css styling and browser rendering)
 
 
@@ -327,8 +328,9 @@ at the end of the `<head>` section:
 
 note that this is the `<head>` section and not the `<header>` section of the _shim.html file.
 
+```ruby
 <%= render 'layouts/shim' %>
-
+```
 
 And you're good to go :-)
 
