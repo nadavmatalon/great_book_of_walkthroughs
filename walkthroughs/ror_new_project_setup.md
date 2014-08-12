@@ -1,24 +1,25 @@
 
-###Ruby On Rails: Setting Up a New Project
-
+#Ruby On Rails: Setting Up a New Project
 
 Written by: Nadav & Will
 
 Main Source:  http://www.railstutorial.org/book/   
-(note that sometimes you need to refersh a couple of times before the chapters of the book are loaded properly)
+(note that sometimes you need to refersh a couple of times before the chapters of the 
+book are loaded properly)
 
-#### General Notes
+## General Notes
 
-Note 1: Text in square brackets must be removed completely (including the brackets)
- 		and replaced with the user's choice as appropriate (see example in step 1).
+* Text in square brackets must be removed completely (including the brackets) and 
+replaced with the user's choice as appropriate (see example in step 1).
 
-Note 2:	If a file's location isn't specified explicitly, that file is in the root directory
-		of the project.
+* If a file's location isn't specified explicitly, that file is in the root director 
+of the project.
 
-Note 3: Do not push to the remote github repo before adding "secrets.yml" to the .gitignore list (step 10)
+* __You are strongly advised not push to the remote github repo before adding the 
+"secrets.yml" to the .gitignore list__ (See: step 10)
 
 
-#### Step-by-Step setting up a new Ruby on Rails project with postgresql databases:
+## Setting up a new Ruby on Rails project with PostgreSQL databases:
 
 	(*)	Check currently installed versions of Ruby and Rails:
 
