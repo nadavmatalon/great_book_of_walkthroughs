@@ -35,17 +35,15 @@
 ##  Introduction
 
 <p>Taking the first steps in any new development domain - be it Ruby, Javascript or Ruby 
-on Rails - is often the hardest part.</p>
-
-<p>Walkthroughs are a great way to facilitate the transition from this initial (clueless) 
-phase to a more productive & efficient level of competance.</p>
+on Rails - is often the hardest part. Walkthroughs are a great way to facilitate the transition 
+from this initial (clueless) phase to a more productive & efficient level of competance.</p>
 
 <p>So, here's the big idea in a nutshell: rather than having each of us spending hours 
 poring over every available the screen-casts, skimming through countless websites, while 
 making our own private notes, we can combine forces and create an extensive repository of 
 alkthroughs.</p>
 
-<p>Each of these walkthroughs is meant to ofer a succict, step-by-step guidance on a 
+<p>Each one of the walkthroughs is meant to ofer a succict, step-by-step guidance on a 
 specific topics, coupled with useful tips, pitfall warnings and perhaps a few selected 
 resources.</p> 
 
@@ -63,9 +61,9 @@ suggestions)</p>
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
-⋅⋅⋅The "List of Walkthroughs", "Still Pending" & "Suggested Topics" sections below lists 
+   The "List of Walkthroughs", "Still Pending" & "Suggested Topics" sections below lists 
 all the topics which have currently been chosen as well as a few open suggestions 
-(but, once again, you can choose to write about anything you like regardless of these suggestions).⋅⋅
+(but, once again, you can choose to write about anything you like regardless of these suggestions).  
 
 * To get started simply pick a topic, preferably one that hasn't been covered yet and 
 let me know so I'll update the list.
@@ -75,14 +73,14 @@ available on the Maker's website. If there's an excellent walkthough there alrea
 there may not be a need to write a new one (but do send me a link and we'll possibly 
 make a list of those for reference).   
 
-⋅⋅⋅On the other hand, it's possible that an the exiting materials could serve as a useful 
-source for a walkthrough in the format promoted here.⋅⋅ 
+   On the other hand, it's possible that an the exiting materials could serve as a useful 
+source for a walkthrough in the format promoted here.   
 
 * All walkthroughs will be available on Github.  
 
-⋅⋅⋅To share your walkthrough, simply fork this repository, add your file to the 
+   To share your walkthrough, simply fork this repository, add your file to the 
 walkthroughs folder, push to your remote repo, send me a pull request and I'll 
-merge it into the general repo.⋅⋅
+merge it into the general repo.  
 
 * The walkthroughs themselves need not be long or extensive (though they could be if 
 you prefer to write them that way), nor should they take long to write. The idea is to 
@@ -90,9 +88,9 @@ provide just the basic squence of little steps to guide someone who knows little
 nothing about a particular subject. Alternatively, they could serve as a 'ckecklist' 
 to make sure all the necessary steps have been taken.  
 
-⋅⋅⋅For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the 
+   For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the 
 "walkthroughs" folder (it should be formatted in a nicer way, but overall it should 
-contain all the important steps).⋅⋅
+contain all the important steps).  
 
 * For now, please use the .md ('markdown') file formats for the walkthroughs.
 
@@ -134,17 +132,11 @@ comming days.
 The following can be found in the "walkthroughs" folder:
 
 * Ruby on Rails: New Project Setup (with psql db) (Nadav & Will)
-
 * Ruby on Rails: Adding Static Pages (Home, About, Contact, Help) (Nadav)
-
 * Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick) (Nadav)
-
 * Ruby on Rails: Forms (Will)
-
 * Paperclip (Johann)
-
 * Testing Ruby on Rails with Rspec and Capybara (Julia)
-
 * Ruby on Rails: Pushing to Heroku (Julie)
 
 
@@ -153,21 +145,13 @@ The following can be found in the "walkthroughs" folder:
 (People who promised to write walkthroughs but haven't delivered yet...)
 
 * Ruby on Rails: Ajax (Fitsum)	
-
 * Ruby on Rails: Amazon S3 (Nicolai)
-
 * Ruby on Rails: Bootstrap (James W.)
-
 * Ruby on Rails: Devise (Faezrah)
-
 * Scraping Websites (Nic)
-
 * Working with Json (Vaidas)
-
 * Rspec with Capybara/Poltergeist (Kate)
-
 * TDD with Capybara (Margherita)
-
 * Ruby on Rails: Partials (Federico)
 
 
@@ -176,25 +160,15 @@ The following can be found in the "walkthroughs" folder:
 Pick whatever you like & write a walkthrough:
 
 * Javascript (general guide / concrete examples)
-
 * APIs (general guide / concrete examples)
-
 * Ruby on Rails: Helpers
-
 * Ruby on Rails: Partials
-
 * Sinatra apps
-
 * Gmaps (Google maps API)
-
 * homebrew
-
 * Active Record: Nested Attributes
-
 * Mustache
-
 * Coffee script
-
 * Flexbox (CSS)
 
 
@@ -202,13 +176,9 @@ Pick whatever you like & write a walkthrough:
 
 A big thank you to all the contributers:
 
-[Nadav Matalon] (https://github.com/nadavmatalon)
-
-[Will Allen] (https://github.com/painted)
-
-[Johann Bornman] (https://github.com/jchb9)
-
-[Julia Tan] (https://github.com/juliatan)
-
-[Julie Ann Walker] (https://github.com/julieannwalker)
+* [Nadav Matalon] (https://github.com/nadavmatalon)
+* [Will Allen] (https://github.com/painted)
+* [Johann Bornman] (https://github.com/jchb9)
+*[Julia Tan] (https://github.com/juliatan)
+* [Julie Ann Walker] (https://github.com/julieannwalker)
 
