@@ -1,6 +1,8 @@
 
 Creating a form once the initial set up has been completed.
 
+Written by: Will
+
 [controller_name] = the name of the relevent controller
 [page_name] = page where you want to view results
 [field] = Whatever field you want to use
