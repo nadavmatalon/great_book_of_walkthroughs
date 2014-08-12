@@ -2,6 +2,8 @@
 ###Ruby On Rails: Setting Up a New Project
 
 
+Written by: Nadav & Will
+
 Main Source:  http://www.railstutorial.org/book/   
 (note that sometimes you need to refersh a couple of times before the chapters of the book are loaded properly)
 
