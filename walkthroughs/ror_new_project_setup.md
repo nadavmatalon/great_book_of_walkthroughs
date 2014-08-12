@@ -267,7 +267,6 @@ After implementing this step, it's a good idea to keep a backup of your `secrets
 (e.g. on [Google Docs](https://docs.google.com/)) and to update that backup after any change.
 
 
-
 #### Enable SCSS
 
 You can enable SCSS (an advanced HTML styling language built on top of CSS), by adding an
@@ -331,7 +330,6 @@ If the __test database__ for your project wasn't on the list, create it by runni
 $ bin/rake db:create RAILS_ENV=test
 ```
 
-
 #### Create a Local Github Repo
 
 To set up a local Github repo run:
@@ -351,7 +349,6 @@ If all is clear run:
 $ git commit -m "initial commit"
 ```
 
-
 #### Create a Remote Github Repo
 
 After setting up a new __remote repo__ on Github, link it with your __local repo__ and with:
@@ -360,7 +357,6 @@ After setting up a new __remote repo__ on Github, link it with your __local repo
 $ git remote add origin REMOTE_REPO_SSH_OR_HTML_URL
 $ git push -u origin master	
 ```
-
 
 #### Updating the Gitignore File
 
@@ -379,13 +375,31 @@ That said, if you do decide to use this option, make sure to keep a backup of yo
 `database.yml` file (e.g. on [Google Docs](https://docs.google.com/)).
 
 
+#### Using Rails Server
+
+To see your project in action in the browser, run:
+
+```bash
+$ bin/rails server
+```
+
+As with other Rails commands, you can also use the shorthand version: `$ bin/rails s`
+
+With the server running, open your browser and type in the following url:
+
+```
+http://localhost:3000
+```
+
+Note that the Rails server will be linked by default to your __development database__ and
+therefore anything that takes place in the browser side (e.g. registering new users to your app)
+will involve updating that database.
+
 
 #### Using Rails Console
 
 To test code snippets and check the content of the development database, you can use 
-the Rails console.
-
-In terminal, run:
+the Rails console:
 
 ```bash
 $ bin/rails console
@@ -404,6 +418,11 @@ Another option is to test code and see the content of `test` database by running
 $ bin/rails console test
 ```
 
+It's worth noting that the __Rails console__ can also serve as great tool for debugging. 
+If you run into problems when trying to run the __Rails server__ due to some obscure bug 
+in your code, try running the __Rails console__ instead. I won't work either, but chances 
+are you'll get a more useful description of the problem.  
+
 
 #### CSS RESET
 
@@ -414,11 +433,11 @@ First, create a new file: `app/vendor/assets/stylesheets/reset.css`
 
 (Note that the new file ought to be located in the `vendors` folder)
 
-Next, copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  
+Next, copy the content for this file from: [CSS Tools: Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
 
-Alternatively use this updated version: http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/
+Alternatively use this updated version: [Reset Revisited](http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/)
 
-(You can, of course, use any other provider you prefer for the `reset.css` file content)
+(You can, of course, use any other provider you like for the `reset.css` file content)
 
 
 After that's done, in `app/assets/stylesheets/application.css.scss`, add the following 
@@ -458,7 +477,7 @@ inside:
 <![endif]-->
 ```
 
-(Source: https://code.google.com/p/html5shim/)
+(__Source:__ [html5shim](https://code.google.com/p/html5shim/))
 
 Next Add the following line in `app/views/layouts/application.html.erb` right at the end of 
 the `<head>` section:
