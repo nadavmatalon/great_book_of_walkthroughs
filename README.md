@@ -1,13 +1,12 @@
 #The Great Book of Walkthroughs 
-
-###(in the making...)
+<h4>(still in the making...)</h4>
 
 ## Table of Contents
 
 * [Screenshots](#screenshot)
 * [Introduction](#introduction)
-* [(Provisional) Guidlines]((#Provisional)-Guidlines)
-* [List of Walkthroughs](#list-of-walkthroughs)
+* [Guidlines]((#Guidlines)
+* [Current Walkthroughs](#current-walkthroughs)
 * [Still Pending](#still-pending)
 * [Suggested Topics](#suggested-topics)
 * [Contributers](#contributers)
@@ -20,13 +19,13 @@
 		<td align="center" width=25% >
 			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/walkthroughs/images/screenshot_1.png">
 				<img src="walkthroughs/images/app_screenshot_1.png" height="105px" />
-				Sign up
+				Screenshot_1
 			</a>
 		</td>
 		<td align="center" width=25% >
 			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/walkthroughs/images/screenshot_2.png">
 				<img src="walkthroughs/images/screenshot_2.png" height="105px" />
-				Search Profiles
+				Screenshot_2
 			</a>
 		</td>
 	</tr>
@@ -55,7 +54,7 @@ learning-tool for those who take part in writing it, the Great Book of Walkthrou
 lso be our gift to the next generations of cohorts at Makers Academy.</p>
 
 
-## (Provisional) Guidlines
+## Guidlines
 
 <p>(to be imporved, revised, updated, and changed in any odd way according to everyone's 
 suggestions)</p>
@@ -130,9 +129,9 @@ comming days.
 * Please let me know about any suggestions, improvements, corrections etc. that you may have :-)
 
 
-## List of Walkthroughs
+## Current Walkthroughs
 
-The following can be found in the "walkthroughs" folder":
+The following can be found in the "walkthroughs" folder:
 
 * Ruby on Rails: New Project Setup (with psql db) (Nadav & Will)
 
