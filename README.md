@@ -61,7 +61,7 @@ suggestions)
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
-   The [Current Walkthroughs](#current-walkthroughs), [Still Pending](#still-pending) & [Suggested   Topics](#suggested-topics)" sections below list all the topics which have either been written on or 
+   The [Current Walkthroughs](#current-walkthroughs), [Still Pending](#still-pending) & [Suggested   Topics](#suggested-topics) sections below list all the topics which have either been written on or 
 already selected, as well as a few open suggestions (but, once again, you can choose to write about 
 anything you like regardless of these suggestions).  
 
@@ -76,7 +76,7 @@ make a list of those for reference).
    On the other hand, it's possible that an the exiting materials could serve as a useful 
 source for a walkthrough in the format promoted here.   
 
-* All walkthroughs will be available on Github.  
+* All walkthroughs will be available on this Github repo.  
 
    To share your walkthrough, simply fork this repository, add your file to the 
 walkthroughs folder, push to your remote repo, send me a pull request and I'll 
@@ -88,9 +88,8 @@ provide just the basic squence of little steps to guide someone who knows little
 nothing about a particular subject. Alternatively, they could serve as a 'ckecklist' 
 to make sure all the necessary steps have been taken.  
 
-   For general referece, check out "ror_new_project_setup_Nadav_and_Will" in the 
-"walkthroughs" folder (it should be formatted in a nicer way, but overall it should 
-contain all the important steps).  
+   For general referece, check out [Ruby on Rails: New Project Setup (with PostgreSQL db)] (walkthroughs/ror_new_project_setup.md) which is located in the "walkthroughs" folder (it 
+should be formatted in a nicer way, but overall it should contain all the important steps).  
 
 * For now, please use the .md ('markdown') file formats for the walkthroughs.
 
