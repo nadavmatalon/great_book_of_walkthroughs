@@ -61,9 +61,9 @@ suggestions)
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
-   The [Current Walkthroughs](#current-walkthroughs) "Current Walkthroughs", "Still Pending" & "Suggested Topics" sections below lists 
-all the topics which have currently been chosen as well as a few open suggestions 
-(but, once again, you can choose to write about anything you like regardless of these suggestions).  
+   The [Current Walkthroughs](#current-walkthroughs), [Still Pending](#still-pending) & [Suggested   Topics](#suggested-topics)" sections below list all the topics which have either been written on or 
+already selected, as well as a few open suggestions (but, once again, you can choose to write about 
+anything you like regardless of these suggestions).  
 
 * To get started simply pick a topic, preferably one that hasn't been covered yet and 
 let me know so I'll update the list.
