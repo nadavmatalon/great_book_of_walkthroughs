@@ -155,7 +155,7 @@ comming days.
 * Ruby on Rails: Partials (Federico)
 
 
-## Available Topics
+## Suggested Topics
 
    Pick whatever you like & write a walkthrough:  
 
