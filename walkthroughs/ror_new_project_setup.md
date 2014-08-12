@@ -74,6 +74,7 @@ Update the "Gemfile" file to include:
 (in tandem, go over the README of each Gem in the documentation - links above each 
 gem below - and verify current versions and updated installation instructions)
 
+```ruby
 ruby '2.1.1'   	# update this according to currently used Ruby version
 
 group :doc do
@@ -110,6 +111,7 @@ group :production do
 # https://github.com/heroku/rails_12factor	
 # gem 'rails_12factor'	 #	not necessary for now (will only be needed for deployment)
 end
+```
 
 (Important: Make sure to remove Duplications, e.g. 'sdocs', 'spring')
 
@@ -171,9 +173,11 @@ $ bundle install
 In “/app/assets/javascripts/application.js”, remove the third element from the 
 top ("turbo-links") and leave only the following three:
 
+```
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+```
 
 And in "app/views/layouts/application.html.erb":
 
@@ -181,6 +185,7 @@ remove the references to ‘turbo links’ from the `<head>` section
 
 Update the “.gitignore” file to include:
 
+```ruby
 # Ignore the secrets files.
 /config/secrets.yml
 
@@ -192,6 +197,7 @@ doc/
 .DS_Store
 .idea
 .secret
+```
 
 (optional) Add “.scss” to the following file: "app/assets/stylesheets/application.css”
 
@@ -281,15 +287,20 @@ Copy the content for this file from: http://meyerweb.com/eric/tools/css/reset/  
 (updated content for the file: http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/)
 
 In "app/assets/stylesheets/application.css.scss", add the following line ABOVE the other two existing lines as follows:
-		
+
+```ruby	
 *= require reset
 *= require_tree .
 *= require_self
+```
 
-(if the '*=require reset' line is not located above all the other 'require' lines, it WILL mess up your css styling and browser rendering)
+(if the '*=require reset' line is not located above all the other 'require' lines, 
+it __WILL MESS UP__ your css styling and browser rendering)
 
 
-(optional) To make sure webpages load fully before functionality becomes available, in “app/assets/javascripts” files, use:
+(optional) To make sure webpages load fully before functionality becomes available, 
+in “app/assets/javascripts” files, use:
+
 ```javascript
 $(document).ready(function() {
 [js code]
