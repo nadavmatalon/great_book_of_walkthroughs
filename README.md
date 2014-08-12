@@ -5,11 +5,11 @@
 
 * [Screenshots](#screenshot)
 * [Introduction](#introduction)
-* [Guidlines]((#Guidlines)
+* [Guidelines]((#guidelines)
 * [Current Walkthroughs](#current-walkthroughs)
 * [Still Pending](#still-pending)
 * [Suggested Topics](#suggested-topics)
-* [Contributers](#contributers)
+* [Contributors](#contributors)
 
 
 ## Screenshots
@@ -54,7 +54,7 @@ learning-tool for those who take part in writing it, the Great Book of Walkthrou
 lso be our gift to the next generations of cohorts at Makers Academy.</p>
 
 
-## Guidlines
+## Guidelines
 
 <p>(to be imporved, revised, updated, and changed in any odd way according to everyone's 
 suggestions)</p>
@@ -198,7 +198,7 @@ Pick whatever you like & write a walkthrough:
 * Flexbox (CSS)
 
 
-## Contributers
+## Contributors
 
 A big thank you to all the contributers:
 
