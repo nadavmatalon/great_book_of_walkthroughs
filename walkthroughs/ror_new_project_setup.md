@@ -22,13 +22,12 @@ text editor you like.
 adding the `config/secrets.yml` file to the .gitignore list (See: [Tell Git what to Ignore](#tell-git-what-to-ignore) below).
 
 
-
 ### Creating a New Project
 
 #### Preliminary Steps
 
-It is always a good idea to check which versions of Ruby and Rails are currently installed 
-(and that they are indeed installed).
+It's always a good idea to check which versions of Ruby and Rails are currently installed   
+(not to mention verify that they are indeed installed).
 
 To do this, run:
 
@@ -242,9 +241,8 @@ top ("turbo-links") and leave only the following:
 //= require_tree .
 ```
 
-And in `app/views/layouts/application.html.erb` remove the line with references to `turbo-links` 
-from the `<head>` section.
-
+And in `app/views/layouts/application.html.erb` remove the line referencing 
+to __turbo-links__ from the `<head>` section.
 
 
 #### Tell Git what to Ignore
@@ -253,7 +251,7 @@ Update the `.gitignore` file to include:
 
 ```
 # Ignore the secrets files.
-/config/secrets.yml             #this is very important for security reasons (see below)
+/config/secrets.yml               #this is important for security reasons (see details below)
 
 # Ignore other unneeded files.
 doc/
@@ -266,7 +264,7 @@ doc/
 ```
 
 After implementing this step, it's a good idea to keep a backup of your `secrets.yml` file 
-(e.g. on Google Docs) and to update that backup after any change.
+(e.g. on [Google Docs](https://docs.google.com/)) and to update that backup after any change.
 
 
 
@@ -295,18 +293,18 @@ Then run:
 $ bin/rake db:create
 ```
 
-On some machines, the `bin/rake db:create` command will only create a `development` database. 
-However, because our tests need a `test` database we may need to create it manually if it 
-wasn't create automatically with the previous command.
+On some machines, the `bin/rake db:create` command will only create a __development database__. 
+However, because our tests will need a __test` database__ we may need to create it manually 
+if it wasn't create automatically by the previous command.
 
-To check if the `test` database already exists run:
+To check if the __test database__ already exists run:
 
 ```bash
 $ psql
 ```
 
-Note that the `command promot` should change to indicate that you've entered the _psql 
-environment_.
+Note that the `command promot` should change to indicate that you've entered the __psql 
+environment__.
 
 If it has, run:
 
@@ -320,7 +318,7 @@ Check and see if `NAME_OF_YOUR_PROJECT_test` appears on the list and then exit p
 $#	\q
 ```
 
-If the `test` database for your project wasn't on the list, create it by running:
+If the __test database__ for your project wasn't on the list, create it by running:
 
 ```bash
 $ bin/rake db:create RAILS_ENV=test
@@ -349,7 +347,7 @@ $ git commit -m "initial commit"
 
 #### Create a Remote Github Repo
 
-After setting up a new _remote repo_ on Github, link it with your _local repo_ and with:
+After setting up a new __remote repo__ on Github, link it with your __local repo__ and with:
 
 ```bash
 $ git remote add origin REMOTE_REPO_SSH_OR_HTML_URL
@@ -366,12 +364,12 @@ If you want, you can  update the `.gitignore` file at this point to include:
 /config/database.yml
 ```
 
-The idea is to have this file on your _remote repo_ in its original form so that 
+The idea is to have this file on your __remote repo__ in its original form so that 
 other developers can to use it if they fork your repo, but at the same time to keep 
-all the changes you might make to it locally.
+all the changes you might make in this file locally.
 
 That said, if you do decide to use this option, make sure to keep a backup of your 
-`database.yml` file (e.g. on Google Docs).
+`database.yml` file (e.g. on [Google Docs](https://docs.google.com/)).
 
 
 
