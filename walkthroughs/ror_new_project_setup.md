@@ -346,7 +346,7 @@ $ git remote add origin REMOTE_REPO_SSH_OR_HTML_URL
 $ git push -u origin master	
 ```
 
-#### Update the Gitignore File
+#### Updating the Gitignore File
 
 If you want, you can  update the `.gitignore` file at this point to include:
 
@@ -374,7 +374,7 @@ In terminal, run:
 $ bin/rails console
 ```
 
-Alternatively, to test code and work with tje `development` database without affecting 
+Alternatively, to test code and work with the `development` database without affecting 
 its content run:
 
 ```bash
