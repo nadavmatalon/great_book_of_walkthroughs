@@ -5,7 +5,7 @@
 
 * [Screenshots](#screenshot)
 * [Introduction](#introduction)
-* [Guidelines]((#guidelines)
+* [Guidelines](#guidelines)
 * [Current Walkthroughs](#current-walkthroughs)
 * [Still Pending](#still-pending)
 * [Suggested Topics](#suggested-topics)
