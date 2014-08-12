@@ -12,13 +12,13 @@ __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example]
 * These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) 
 or later.
 * Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text 
-(see [Generating the Basic Rails Framework](###generating-the-basic-rails-framework) below)
+(see [Generating the Basic Rails Framework](#generating-the-basic-rails-framework) below)
 * If a file's location within the file system isn't specified explicitly, that file is 
 in the root director of the project.
 * The following uses [Sublime Text](http://www.sublimetext.com/3) as the text editor of choice. However, you can use whichever
 text editor you like.
 * It is strongly recommended <strong>not to push the remote github repo</strong> before 
-adding the `config/secrets.yml` file to the .gitignore list (See: [Tell Git what to Ignore](###tell-git-what-to-ignore) below).
+adding the `config/secrets.yml` file to the .gitignore list (See: [Tell Git what to Ignore](#tell-git-what-to-ignore) below).
 
 
 
