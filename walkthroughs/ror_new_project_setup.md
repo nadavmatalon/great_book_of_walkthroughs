@@ -1,6 +1,6 @@
 
 #Ruby On Rails:  
-Setting Up a New Project with a PostgreSQL Database
+#Setting Up a New Project with a PostgreSQL Database
 
 __Written by:__ [Nadav](https://github.com/nadavmatalon) & [Will](https://github.com/painted)
 (May 2014@[Makers Academy](http://www.makersacademy.com/))
@@ -9,7 +9,7 @@ __Written by:__ [Nadav](https://github.com/nadavmatalon) & [Will](https://github
 __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example](http://www.railstutorial.org/book/)
 
 
-### General Notes
+###General Notes
 
 * These instructions have been written for projects using [Rails 4.0](http://rubyonrails.org/) 
 or later.
@@ -23,9 +23,9 @@ text editor you like.
 adding the `config/secrets.yml` file to the .gitignore list (See: [Tell Git what to Ignore](#tell-git-what-to-ignore) below).
 
 
-### Creating a New Project
+###Creating a New Project
 
-#### Preliminary Steps
+####Preliminary Steps
 
 It's always a good idea to check which versions of Ruby and Rails are currently installed   
 (not to mention verify that they are indeed installed).
@@ -46,7 +46,7 @@ $ gem update rails
 ```
 
 
-#### Generating the Basic Rails Framework
+####Generating the Basic Rails Framework
 
 To create a new directory with all the default Rails goodies, run:
 
@@ -89,7 +89,7 @@ From now on, you can simply use `$ rails new NAME_OF_YOUR_PROJECT` and it will h
 the above settings in place: 	
 
 
-#### Setting up the Gemfile
+####Setting up the Gemfile
 
 First, go into your project's directory and open it in Sublime Text:
 
@@ -174,7 +174,7 @@ as usual and the 'production' gems will not be installed until deployment to the
 environment.
 
 
-#### Setting up Rspec
+####Setting up Rspec
 
 To set up [Rspec](http://rspec.info/) for testing your app, run:
 
@@ -220,15 +220,14 @@ You should see Rspec running with no tests except the pending ones created autom
 (these pending tests will show in yellow).
 
 
-
-#### Modifying the README Extention
+####Modifying the README Extention
 
 By defualt, Rails generate a README file with an `.rdoc` extension type.
 
 If you want, you can rename this file to `README.md`
 
 
-#### Removing Turbo-Links
+####Removing Turbo-Links
 
 Rummor has it that Turbo-Links doesn't play nice with other elements in the Rails framework 
 and therefore it's sometimes recommended to remove it completely if it's not specifically needed.
@@ -246,7 +245,7 @@ And in `app/views/layouts/application.html.erb` remove the line referencing
 to __turbo-links__ from the `<head>` section.
 
 
-#### Telling Git what to Ignore
+####Telling Git what to Ignore
 
 Update the `.gitignore` file to include:
 
@@ -268,7 +267,7 @@ After implementing this step, it's a good idea to keep a backup of your `secrets
 (e.g. on [Google Docs](https://docs.google.com/)) and to update that backup after any change.
 
 
-#### Enabling SCSS
+####Enabling SCSS
 
 You can enable SCSS (an advanced HTML styling language built on top of CSS), by adding an
 `.scss` extension type to the following file: `app/assets/stylesheets/application.css`
@@ -279,7 +278,7 @@ Notice that the `.scss` extension comes __after__ the `.css` entension
 and __does not__ replace it.
 
 
-#### Configuring the PostgreSQL Database
+####Configuring the PostgreSQL Database
 
 In `config/database.yml`, add the following line immidiately after the `pool: 5` line:
 
@@ -331,7 +330,7 @@ If the __test database__ for your project wasn't on the list, create it by runni
 $ bin/rake db:create RAILS_ENV=test
 ```
 
-#### Creating a Local Github Repo
+####Creating a Local Github Repo
 
 To set up a local Github repo run:
 
@@ -350,7 +349,7 @@ If all is clear run:
 $ git commit -m "initial commit"
 ```
 
-#### Creating a Remote Github Repo
+####Creating a Remote Github Repo
 
 After setting up a new __remote repo__ on [Github](http://github.com/), link it with 
 your __local repo__ and with:
@@ -360,7 +359,7 @@ $ git remote add origin REMOTE_REPO_SSH_OR_HTML_URL
 $ git push -u origin master	
 ```
 
-#### Updating the Gitignore File
+####Updating the Gitignore File
 
 If you want, you can  update the `.gitignore` file at this point to include:
 
@@ -377,7 +376,7 @@ That said, if you do decide to use this option, make sure to keep a backup of yo
 `database.yml` file (e.g. on [Google Docs](https://docs.google.com/)).
 
 
-#### Using the Rails Server
+####Using the Rails Server
 
 To see your project in action in the browser, run:
 
@@ -398,7 +397,7 @@ therefore anything that takes place in the browser side (e.g. registering new us
 will involve updating that database.
 
 
-#### Using the Rails Console
+####Using the Rails Console
 
 To test code snippets and check the content of the development database, you can use 
 the Rails console:
@@ -426,7 +425,7 @@ in your code, try running the __Rails console__ instead. I won't work either, bu
 are you'll get a more useful description of the problem.  
 
 
-#### Adding a CSS RESET File
+####Adding a CSS RESET File
 
 If you want to add a `reset.css` file so as to reset the default CSS styling of 
 different browsers, follow these steps.
@@ -466,8 +465,7 @@ $(document).ready(function() {
 });
 ```
 
-
-#### Adding an HTML5 Shim
+####Adding an HTML5 Shim
 
 To help tackle redering problems in IE browsers older than IE9, you can create a new file called 
 `app/views/layouts/_shim.html.erb` and add the following content (known as: “HTML5 shim”) 
@@ -491,8 +489,7 @@ the `<head>` section:
 Note that this is the `<head>` section and __not__ the `<header>` section of the `_shim.html` file.
 
 
-
-#### Creating an Awesome Project
+####Creating an Awesome Project
 
 Well done! You're good to go :-)
 
