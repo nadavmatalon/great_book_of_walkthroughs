@@ -129,9 +129,9 @@ comming days.
 
 ## Current Walkthroughs
 
-   The following can be found in the "walkthroughs" folder:  
+The following can be found in the "walkthroughs" folder:  
 
-* Ruby on Rails: New Project Setup (with psql db) (Nadav & Will)
+* [Ruby on Rails: New Project Setup (with psql db)] (walkthroughs /ror_new_project_setup_Nadav_and_Will.md) (Nadav & Will)
 * Ruby on Rails: Adding Static Pages (Home, About, Contact, Help) (Nadav)
 * Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick) (Nadav)
 * Ruby on Rails: Forms (Will)
@@ -142,7 +142,7 @@ comming days.
 
 ## Still Pending
 
-   (People who promised to write walkthroughs but haven't delivered yet...)  
+(People who promised to write walkthroughs but haven't delivered yet...)  
 
 * Ruby on Rails: Ajax (Fitsum)	
 * Ruby on Rails: Amazon S3 (Nicolai)
@@ -157,7 +157,7 @@ comming days.
 
 ## Suggested Topics
 
-   Pick whatever you like & write a walkthrough:  
+Pick whatever you like & write a walkthrough:  
 
 * Javascript (general guide / concrete examples)
 * APIs (general guide / concrete examples)
