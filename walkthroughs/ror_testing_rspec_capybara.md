@@ -20,11 +20,15 @@ in the root directory of the project.
 As it will probably be easier to understand this in the context of an example, I have
 chosen the Instagram project.
 
-In `app/spec/rails_helper.rb`, in the Rspec config section, paste in the following code:
+In `app/spec/rails_helper.rb`, in the Rspec config section under:
 
 ```ruby
 RSpec.configure do |config|
-    :
+```
+
+paste in the following code:
+
+```ruby   
     config.include Warden::Test::Helpers
  
     Warden.test_mode!
@@ -32,8 +36,6 @@ RSpec.configure do |config|
     config.after(:each) do
         Warden.test_reset!
     end
-    :
-end
 ```
 
 ###Setting up Feature Specs with Capybara
