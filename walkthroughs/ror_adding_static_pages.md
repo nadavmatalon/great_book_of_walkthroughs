@@ -175,12 +175,12 @@ describe "Static pages: " do
 
         before (:each) { visit root_path }
 
-        it "should have the title \'Web Templates | Home\'" do
-            should have_title "Web Template | Home"
+        it "should have the title \'NAME_OF_YOUR_APP | Home\'" do
+            should have_title "NAME_OF_YOUR_APP | Home"
         end
 
-        it "should have the content \'Web Templates\'" do
-            should have_content "WEB TEMPLATE"
+        it "should have the content \'NAME_OF_YOUR_APP\'" do
+            should have_content "NAME_OF_YOUR_APP"
         end
     end
 
@@ -188,12 +188,12 @@ describe "Static pages: " do
 
 	    before (:each) { visit home_path }
 
-        it "should have the title \'Web Template | Home\'" do
-            should have_title "Web Template | Home"
+        it "should have the title \'NAME_OF_YOUR_APP | Home\'" do
+            should have_title "NAME_OF_YOUR_APP | Home"
             end
 
-        it "should have the content 'Web Template'" do
-            should have_content "WEB TEMPLATE"
+        it "should have the content \'NAME_OF_YOUR_APP\'" do
+            should have_content "NAME_OF_YOUR_APP"
         end
 	end
 
@@ -201,8 +201,8 @@ describe "Static pages: " do
 
         before (:each) { visit about_path }
 
-        it "should have the title \'Web Template | About\'" do
-           should have_title "Web Template | About"
+        it "should have the title \'NAME_OF_YOUR_APP | About\'" do
+           should have_title "NAME_OF_YOUR_APP | About"
         end
 
         it "should have the content \'About Us\'" do
@@ -214,8 +214,8 @@ describe "Static pages: " do
 
         before (:each) { visit contact_path }
 
-        it "should have the title \'Web Template | Contact\'" do
-            should have_title "Web Template | Contact"
+        it "should have the title \'NAME_OF_YOUR_APP | Contact\'" do
+            should have_title "NAME_OF_YOUR_APP | Contact"
         end
 
         it "should have the content \'Contact Us\'" do
@@ -227,8 +227,8 @@ describe "Static pages: " do
 
         before (:each) { visit help_path }
 
-        it "should have the content \'Web Template | Help\'" do
-            should have_title "Web Template | Help"
+        it "should have the content \'NAME_OF_YOUR_APP | Help\'" do
+            should have_title "NAME_OF_YOUR_APP | Help"
         end
 
         it "should have the content \'Help\'" do
