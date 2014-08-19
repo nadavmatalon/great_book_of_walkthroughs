@@ -39,9 +39,6 @@ Then, in `config/routes.rb` remove the following content:
     get 'static_pages/about'
 	get 'static_pages/contact'
 	get 'static_pages/help'
-    .
-    .
-    .
 end
 ```
 
@@ -94,31 +91,31 @@ http://localhost:3000/help			// this should show the "help" page
 If you want to create dynamic page titles, in `app/views/layouts/application.html.erb`, 
 add the following line to the top of the `<head>` section:
 
-```html
+```erb
 <title><%= full_title(yield(:page_title)) %></title>
 ```
 
 In `app/views/layout/static_pages/home.html.erb`, add the following at the top:
 
-```html
+```erb
 <% provide(:page_title, "Home") %>
 ```
 		
 In `app/views/layout/static_pages/about.html.erb`, add the following at the top:
 
-```html
+```erb
 <% provide(:page_title, "About") %>
 ```
 
 In `app/views/layout/static_pages/contact.html.erb`, add the following at the top:
 
-```html
+```erb
 <% provide(:page_title, "Contact") %>
 ```
 
 And in `app/views/layout/static_pages/help.html.erb`, add the following at the top:
 
-```html
+```erb
 <% provide(:page_title, "Help") %>
 ```
 
@@ -226,13 +223,9 @@ And inside the config method add:
 
 ```ruby
 RSpec.configure do |config|
-    .
-    .
-    .
+    :
     config.include Capybara::DSL
-    .
-    .
-    .
+    :
 end
 ```
 
@@ -242,7 +235,7 @@ To create links to the static pages, either in the `homepage` or in any other pa
 add the following line to the `app/views/*.html.erb` file of the relevant page:
 
 ```erb
-<%= link_to "[“TEXT_OF_LINK]", [ROUTE]_path, class: "[CSS_CLASS_NAME/S]" %>
+<%= link_to "“TEXT_OF_LINK", ROUTE_path, class: "CSS_CLASS_NAME/S" %>
 ```
 
 Note that you need to replace the capitalized text above with your own for the links to work.
