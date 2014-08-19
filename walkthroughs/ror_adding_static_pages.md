@@ -225,6 +225,7 @@ require 'capybara'
 And inside the config method add:
 
 ```ruby
+RSpec.configure do |config|
     .
     .
     .
@@ -232,6 +233,7 @@ And inside the config method add:
     .
     .
     .
+end
 ```
 
 ####Adding Links to Static Pages
@@ -239,7 +241,7 @@ And inside the config method add:
 To create links to the static pages, either in the `homepage` or in any other page, 
 add the following line to the `app/views/*.html.erb` file of the relevant page:
 
-```html
+```erb
 <%= link_to "[“TEXT_OF_LINK]", [ROUTE]_path, class: "[CSS_CLASS_NAME/S]" %>
 ```
 
