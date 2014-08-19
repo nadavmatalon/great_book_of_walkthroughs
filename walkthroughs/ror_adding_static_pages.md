@@ -22,12 +22,12 @@ in the root director of the project.
 text editor you like.
 
 
-####Creating the Controller
+###Creating the Controller
 
 To create a controller for static pages (homepage, about, contact, help) without the 
 default rspec tests (we'll create our own), run:
 
-```bash
+```
 $ bin/rails generate controller StaticPages home about contact help --no-test-framework
 ```
 
@@ -35,7 +35,6 @@ Then, in `config/routes.rb` remove the following content:
 
 ```ruby
 [name_of_project]::Application.routes.draw do
-
     get 'static_pages/home'
     get 'static_pages/about'
 	get 'static_pages/contact'
@@ -54,9 +53,6 @@ match '/home', to: 'static_pages#home', via: 'get'
 match '/about', to: 'static_pages#about', via: 'get'
 match '/contact', to: 'static_pages#contact', via: 'get'
 match '/help', to: 'static_pages#help', via: 'get'
-.
-.
-.
 ```
 
 Switch to the terminal and run:
@@ -96,7 +92,7 @@ http://localhost:3000/help			// this should show the "help" page
 ####Adding Dynamic Page Titles
 
 If you want to create dynamic page titles, in `app/views/layouts/application.html.erb`, 
-add the following line to the top of the <head> section:
+add the following line to the top of the `<head>` section:
 
 ```html
 <title><%= full_title(yield(:page_title)) %></title>
