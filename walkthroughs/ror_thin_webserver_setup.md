@@ -70,7 +70,7 @@ Then add the following line to the Procfile and save it:
 
 ###Configuring Capybara
 
-In `app/spec/rails_helper.rb`, add the following lines 
+If you're using `Capybara`, in `app/spec/rails_helper.rb`, add the following lines: 
 
 ```ruby		
 Capybara.server do |app, port|
