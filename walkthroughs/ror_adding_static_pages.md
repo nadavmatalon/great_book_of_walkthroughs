@@ -28,10 +28,12 @@ default rspec tests (we'll create our own), run:
 $ bin/rails generate controller StaticPages home about contact help --no-test-framework
 ```
 
-Then, in `config/routes.rb` remove the following content:
+###Creating Routes to the Static Pages
+
+In `config/routes.rb` remove the following content:
 
 ```ruby
-[name_of_project]::Application.routes.draw do
+NAME_OF_YOUR_PROJECTt::Application.routes.draw do
     get 'static_pages/home'
     get 'static_pages/about'
 	get 'static_pages/contact'
@@ -49,16 +51,42 @@ match '/contact', to: 'static_pages#contact', via: 'get'
 match '/help', to: 'static_pages#help', via: 'get'
 ```
 
-Switch to the terminal and run:
+Now switch to the terminal and run:
 
 ```bash
 $ bin/rake routes
 ```
 
-This comman should list all the currently available routes in your project.
+This comman should list all the currently available routes in your project, including:
 
+```bash
+root GET        /                             static_pages#home
+home GET        /home(.:format)               static_pages#home
+about GET       /about(.:format)              static_pages#about
+contact GET     /contact(.:format)            static_pages#contact
+help GET        /help(.:format)               static_pages#help
+```
 
-Now, open a new terminal tab and run:
+###Adding Links to Static Pages
+
+To create links to the static pages, either in the `homepage` or in any other page, 
+add the following line to the `app/views/*.html.erb` file of the relevant page:
+
+```erb
+<%= link_to "“TEXT_OF_LINK", ROUTE_path, class: "CSS_CLASS_NAME/S" %>
+```
+
+Note that you need to replace the capitalized text above with your own for the links to work.
+
+Now, to To find the relevant [ROUTE] designators, run:
+
+```bash
+$ bin/rake routes
+```
+
+###Running the Rails Server
+
+Open a new terminal tab and run:
 
 ```bash
 $ bin/rails server
@@ -85,8 +113,10 @@ http://localhost:3000/help			// this should show the "help" page
 
 ###Adding Dynamic Page Titles
 
-If you want to create dynamic page titles, in `app/views/layouts/application.html.erb`, 
-add the following line to the top of the `<head>` section:
+If you want to create dynamic page titles which will appear in the tab at the top of the 
+browser in which the app is open follow these steps.
+
+In `app/views/layouts/application.html.erb`, add the following line to the top of the `<head>` section:
 
 ```erb
 <title><%= full_title(yield(:page_title)) %></title>
@@ -226,22 +256,5 @@ RSpec.configure do |config|
 end
 ```
 
-###Adding Links to Static Pages
 
-To create links to the static pages, either in the `homepage` or in any other page, 
-add the following line to the `app/views/*.html.erb` file of the relevant page:
-
-```erb
-<%= link_to "“TEXT_OF_LINK", ROUTE_path, class: "CSS_CLASS_NAME/S" %>
-```
-
-Note that you need to replace the capitalized text above with your own for the links to work.
-
-Now, to To find the relevant [ROUTE] designators, run:
-
-```bash
-$ bin/rake routes
-```
-
-On the list, you can see all the relevant routes to the static pages (ending with *_path)
 
