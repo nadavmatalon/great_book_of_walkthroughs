@@ -59,7 +59,7 @@ $ bin/rake routes
 
 This comman should list all the currently available routes in your project, including:
 
-```bash
+```
 root GET        /                             static_pages#home
 home GET        /home(.:format)               static_pages#home
 about GET       /about(.:format)              static_pages#about
