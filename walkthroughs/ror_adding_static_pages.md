@@ -15,11 +15,8 @@ in this folder.
 * The following instructions have been written for projects using 
 [Rails 4.0](http://rubyonrails.org/) or later.
 * Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text 
-(see [Generating the Basic Rails Framework](#generating-the-basic-rails-framework) below)
 * If a file's location within the file system isn't specified explicitly, that file is 
-in the root director of the project.
-* The following uses [Sublime Text](http://www.sublimetext.com/3) as the text editor of choice. However, you can use whichever
-text editor you like.
+in the root directory of the project.
 
 
 ###Creating the Controller
@@ -86,7 +83,7 @@ http://localhost:3000/help			// this should show the "help" page
 ```
 
 
-####Adding Dynamic Page Titles
+###Adding Dynamic Page Titles
 
 If you want to create dynamic page titles, in `app/views/layouts/application.html.erb`, 
 add the following line to the top of the `<head>` section:
@@ -128,7 +125,7 @@ def full_title page_title
 end
 ```
 
-####Controller Integration Testing
+###Controller Integration Testing
 
 To generate initial integration tests for our `static_pages controller` follow these steps:
 
@@ -229,7 +226,7 @@ RSpec.configure do |config|
 end
 ```
 
-####Adding Links to Static Pages
+###Adding Links to Static Pages
 
 To create links to the static pages, either in the `homepage` or in any other page, 
 add the following line to the `app/views/*.html.erb` file of the relevant page:
