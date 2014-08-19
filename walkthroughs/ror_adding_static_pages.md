@@ -10,7 +10,7 @@ __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example]
 
 ###General Notes
 
-* For a basic Ruby on Rails project setup please refer to the [New Project Setup](walkthroughs/ror_new_project_setup.md) 
+* For a basic Ruby on Rails project setup please refer to the [New Project Setup](./ror_new_project_setup.md) 
 in this folder.
 * The following instructions have been written for projects using 
 [Rails 4.0](http://rubyonrails.org/) or later.
