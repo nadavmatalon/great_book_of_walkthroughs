@@ -38,7 +38,7 @@ constructs.
 
 In `app/views/layouts/application.html.erb`, add the following content:
 
-```erb
+```html
 <html ng-app="NAME_OF_APP">
 	<head>
 	</head>
@@ -87,14 +87,14 @@ https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js
 
 Alternatively, add the following in the `<head>` section of `app/views/layouts/application.html.erb`:
 
-```erb
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
 ```
 
 Then, in the relevant `*.html.erb` file where you want to use Angular, you can add the 
 following lines:
 
-```erb
+```html
 <div>
 	<ul>
 		<li class="profile-content-form"> {{ Variable1 }} </li>
