@@ -10,7 +10,7 @@ __Main Source:__ [Michael Hartl, Ruby on Rails Tutorial: Learn Rails by Example]
 
 ###General Notes
 
-* For a basic Ruby on Rails project setup please refer to the [New Project Setup](/ror_new_project_setup.md) 
+* For a basic Ruby on Rails project setup please refer to the [New Project Setup](walkthroughs/ror_new_project_setup.md) 
 in this folder.
 * The following instructions have been written for projects using 
 [Rails 4.0](http://rubyonrails.org/) or later.
@@ -20,9 +20,6 @@ in this folder.
 in the root director of the project.
 * The following uses [Sublime Text](http://www.sublimetext.com/3) as the text editor of choice. However, you can use whichever
 text editor you like.
-* It is strongly recommended <strong>not to push the remote github repo</strong> before 
-adding the `config/secrets.yml` file to the .gitignore list 
-(See: [Tell Git what to Ignore](#tell-git-what-to-ignore) below).
 
 
 ####Creating the Controller
