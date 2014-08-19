@@ -17,15 +17,17 @@ in the root directory of the project.
 
 ###Why Switch to Thin Webserver?
 
-By default, Rails 4 (and Heroku) use WEBrick as their webserver.
+By default, [Rails 4.0](http://rubyonrails.org/) (and [Heroku](https://www.heroku.com/)) use 
+`WEBrick` as their webserver.
 
 However, according to Heroku documentation:
 
 ```
-While WEBrick should be fine for development, it was not designed to handle a high concurrent 
+"While WEBrick should be fine for development, it was not designed to handle a high concurrent 
 workload that a Ruby app must serve in production. A production web server should be used 
-instead. ([source](https://devcenter.heroku.com/articles/ruby-default-web-server))
+instead." 
 ```
+([source](https://devcenter.heroku.com/articles/ruby-default-web-server))
 
 `Thin webserver` is a common alternative on Rails and Heroku.
 
