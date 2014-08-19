@@ -15,7 +15,7 @@ in this folder.
 in the root directory of the project.
 
 
-###What Is Angular?
+###What is Angular?
 
 From the Angular documentation ([source](https://docs.angularjs.org/guide/introduction)):
 
@@ -81,7 +81,7 @@ If you want the Angular code to be included locally in your app's code (rather t
 on it being downloaded from the web every time ), create new file file: 
 `app/vendor/javascripts/angular.js`, and copy the content for it from the following link:
 
-```link
+```
 https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js
 ```
 
