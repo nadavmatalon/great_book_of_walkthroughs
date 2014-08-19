@@ -1,35 +1,45 @@
-Testing Ruby on Rails with Rspec and Capybara
-=============================================
+##Ruby On Rails 
+#Testing with Rspec and Capybara
 
-Written by: Julia
+__Written by:__ [Julia](https://github.com/juliatan)
+(May 2014@[Makers Academy](http://www.makersacademy.com/))
 
-Please refer to the [New Project Setup walkthrough](https://github.com/nadavmatalon/great_book_of_walkthroughts/blob/master/walkthroughs/ror_new_project_setup_Nadav_and_Will.md) to ensure you have installed
-Rspec properly for your RoR app.
+###General Notes
+
+* For a basic Ruby on Rails project setup please refer to the [New Project Setup](./ror_new_project_setup.md) 
+in this folder.
+* The following instructions have been written for projects using 
+[Rails 4.0](http://rubyonrails.org/) or later.
+* Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text 
+* If a file's location within the file system isn't specified explicitly, that file is 
+in the root directory of the project.
+
+
+###Initial setup for testing with Rspec
 
 As it will probably be easier to understand this in the context of an example, I have
 chosen the Instagram project.
 
-Initial setup for testing with Rspec
-------------------------------------
+In `app/spec/rails_helper.rb`, in the Rspec config section, paste in the following code:
 
-1.  Within **spec/rails\_helper.rb**, and under the section of code with:
+```ruby
+RSpec.configure do |config|
+    :
+    config.include Warden::Test::Helpers
+ 
+    Warden.test_mode!
 
-        RSpec.configure do |config|
+    config.after(:each) do
+        Warden.test_reset!
+    end
+    :
+end
+```
 
-    paste in the following code:
-
-        config.include Warden::Test::Helpers
-        Warden.test_mode!
-
-        config.after(:each) do
-          Warden.test_reset!
-        end
-
-Setting up feature specs with Capybara
---------------------------------------
+###Setting up Feature Specs with Capybara
 
 1.  Create a **features** folder within the automatically generated **spec** folder
-1.  Create a **post\_feature\_spec.rb** file
+1.  Create a **post\_feature\_spec.rb** file with the following elements:
     *  require 'rails_helper'
     *  describe 'Displaying posts'
         *  context 'No posts'
@@ -69,8 +79,8 @@ Setting up feature specs with Capybara
 
     **I won't go into this further as testing Javascript is a topic on its own**
 
-Unit testing the post tagging feature with Rspec
-------------------------------------------------
+
+###Unit testing the post tagging feature with Rspec
 
 1.  Create a **models** folder within the **spec** folder
 1.  Create a **post\_spec.rb** file
@@ -91,8 +101,8 @@ Unit testing the post tagging feature with Rspec
 
 **You would then fill these out with typical RSpec helpers and expectations, stubs and doubles as was learnt in Week 2...**
 
-Stubbing out the saving of images to Amazon Web Services S3
------------------------------------------------------------
+
+###Stubbing out the saving of images to Amazon Web Services S3
 
 1. Within **rails\_helper.rb**, paste in the following code:
           
@@ -100,8 +110,8 @@ Stubbing out the saving of images to Amazon Web Services S3
         AWS.stub!
         AWS.config(:access_key_id => "TESTKEY", :secret_access_key => "TESTSECRET")
 
-Typical helpers used in Capybara
---------------------------------
+
+###Typical helpers used in Capybara
 
 *  visit '/...'
 *  fill_in '...', with: '...'
@@ -121,8 +131,8 @@ Typical helpers used in Capybara
         end
         expect ...
 
-Typical expectations used in Capybara
--------------------------------------
+
+###Typical expectations used in Capybara
 
 *  expect(page).to have\_content "..."
 *  expect(page).to have\_link "..."
@@ -131,8 +141,7 @@ Typical expectations used in Capybara
 *  expect(page).not\_to have_css "img.uploaded-pic" (where 'uploaded-pic' is a class)
 *  expect(page).to have\_css 'h1', 'Posts tagged with #yolo'
 
-Suggestions on why your Capybara tests may not work
----------------------------------------------------
+###Suggestions on why your Capybara tests may not work
 
 * Have you required **rails\_helper.rb**?
 * Have you created a fake user?
