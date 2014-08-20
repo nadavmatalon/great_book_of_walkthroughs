@@ -40,8 +40,6 @@
             Angular Setup
          </a>
       </td>
-
-
 	</tr>
 </table>
 
