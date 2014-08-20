@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-* [Screenshots](#screenshot)
+* [Screenshots](#screenshots)
 * [Introduction](#introduction)
 * [Guidelines](#guidelines)
 * [Current Walkthroughs](#current-walkthroughs)
