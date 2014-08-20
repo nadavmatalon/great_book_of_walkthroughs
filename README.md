@@ -19,25 +19,25 @@
 		<td align="center" width="190px" >
 			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_1.jpg">
 				<img src="images/great_book_1.jpg" height="105px" />
-				Screenshot_1
+				New Project Setup
 			</a>
 		</td>
 		<td align="center" width="190px" >
 			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_2.jpg">
 				<img src="images/great_book_2.jpg" height="105px" />
-				Screenshot_2
+				Rspec & Capybara
 			</a>
 		</td>
       <td align="center" width="190px" >
          <a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_3.jpg">
             <img src="images/great_book_3.jpg" height="105px" />
-            Screenshot_3
+            Thin Webserver
          </a>
       </td>
       <td align="center" width="190px" >
          <a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_4.jpg">
             <img src="images/great_book_4.jpg" height="105px" />
-            Screenshot_4
+            Angular Setup
          </a>
       </td>
 
