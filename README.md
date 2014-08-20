@@ -16,18 +16,32 @@
 
 <table>
 	<tr>
-		<td align="center" width=25% >
-			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/walkthroughs/images/screenshot_1.png">
-				<img src="walkthroughs/images/app_screenshot_1.png" height="105px" />
+		<td align="center" width="190px" >
+			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_1.jpg">
+				<img src="images/great_book_1.jpg" height="105px" />
 				Screenshot_1
 			</a>
 		</td>
-		<td align="center" width=25% >
-			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/walkthroughs/images/screenshot_2.png">
-				<img src="walkthroughs/images/screenshot_2.png" height="105px" />
+		<td align="center" width="190px" >
+			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_2.jpg">
+				<img src="images/great_book_2.jpg" height="105px" />
 				Screenshot_2
 			</a>
 		</td>
+      <td align="center" width="190px" >
+         <a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_3.jpg">
+            <img src="images/great_book_3.jpg" height="105px" />
+            Screenshot_3
+         </a>
+      </td>
+      <td align="center" width="190px" >
+         <a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_4.jpg">
+            <img src="images/great_book_4.jpg" height="105px" />
+            Screenshot_4
+         </a>
+      </td>
+
+
 	</tr>
 </table>
 
