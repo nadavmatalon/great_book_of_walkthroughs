@@ -201,7 +201,7 @@ it in every individual `_spec` file, open the `.rspec` file, and change it's con
 
 Save the file and close it.
 
-The next step is to add the following line at the top of `spec/helpers/rspec_helper.rb`:
+The next step is to add the following line at the top of `spec/spec_helper.rb`:
 
 ```ruby
 require 'rspec/collection_matchers'
