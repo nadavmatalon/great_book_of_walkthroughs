@@ -56,7 +56,7 @@ In the rest of this walkthrough, we'll use the `posts` example. Make the necessa
 changes in your own code.
 
 
-###Why Writing a Test for the New Form
+###Writing a Test for the New Form
 
 After the project's initial setup has been completed, create a new `spec` file called: 
 `spec/features/posts_controller_feature_spec.rb`, and add the following test:
@@ -126,7 +126,7 @@ $> rspec
 
 Go to the `new.html.erb` file and add:
 
-```html
+```
 <%= form_for [@post] do |f| %>
 	<%= f.label :title %><br/>
 	<%= f.text_field :title %><br/>
@@ -180,7 +180,7 @@ $> rspec
 So in `app/controllers/posts_controller.rb`, define the missing `index` action:
 
 ```ruby
-	def new
+	def index
 		@posts = Post.all
 	end
 ```
@@ -197,7 +197,7 @@ So let's create it.
 Create a new file (and folder if needed) called: `app/views/posts/index.html.erb`,
 and add the following content inside:
 
-```html
+```
 <h2>List of Posts</h2>
 <% @posts.each do |post| %>
 	<p>Post ID: <%= post.id %></p>
@@ -213,7 +213,7 @@ $> rspec
 => 1 example, 0 failures
 ```
 
-###Work with the Form in the Browser
+###Work with the New Form in the Browser
 
 To see the form in the browser, run:
 
@@ -221,16 +221,15 @@ To see the form in the browser, run:
 $ bin/rails server
 ```
 
-And go to:
-
 In browser go to the page in which the form is located: 
-`localhost/3000/CONTROLLER_NAME/ACTION_NAME`.
 
-In our example, this would be: `localhost/3000/posts/new`
+```
+localhost/3000/posts/new
+```
 
 Fill-in the form and click 'Create'.
 
-This should redirect you to the `index` page where you can see a list of all the 
+This should redirect you to the `posts/index` page where you can see a list of all the 
 posts you've created.
 
 
