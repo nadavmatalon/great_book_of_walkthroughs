@@ -201,7 +201,7 @@ it in every individual `_spec` file, open the `.rspec` file, and change it's con
 
 Save the file and close it.
 
-The next step is to add the following line at the top of `spec/helpers/rspec_helper.rb`:
+The next step is to add the following line at the top of `spec/spec_helper.rb`:
 
 ```ruby
 require 'rspec/collection_matchers'
@@ -430,7 +430,7 @@ are you'll get a more useful description of the problem.
 If you want to add a `reset.css` file so as to reset the default CSS styling of 
 different browsers, follow these steps.
 
-First, create a new file: `app/vendor/assets/stylesheets/reset.css`
+First, create a new file: `vendor/assets/stylesheets/reset.css`
 
 (Note that the new file ought to be located in the `vendors` folder)
 
