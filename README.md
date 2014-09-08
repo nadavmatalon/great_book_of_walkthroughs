@@ -9,6 +9,7 @@
 * [Current Walkthroughs](#current-walkthroughs)
 * [Still Pending](#still-pending)
 * [Suggested Topics](#suggested-topics)
+* [Disclaimer](#disclaimer)
 * [Contributors](#contributors)
 
 
@@ -190,6 +191,15 @@ Pick whatever you like & write a walkthrough:
 * Mustache
 * Coffee script
 * Flexbox (CSS)
+
+
+##Disclaimer
+
+To all readers/users of these walkthroughs, please note that the the following is meant 
+only to offer guidance, advice, and helpful tips written by software development students 
+as part of their learning process. As such, the author/s shall have responsibility whatsoever 
+for any loss of data or any other damage caused to users and/or their code as a result of 
+following the the steps presented in this walkthrough.
 
 
 ## Contributors
