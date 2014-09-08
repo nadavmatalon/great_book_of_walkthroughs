@@ -78,12 +78,12 @@ For 'jQuery.ui' add this `<script>` to the `<head>`:
 
 
 Next, fill-in the `<style>` tag with the __CSS__ syling, the `<body>` tag with the 
-__HTML__ content, and the `<script>` tag with your __Javascript__ code. 
+__HTML__ content, and the `<script>` tag with the __Javascript__ code of your project.
 
 
 ###Checking the Combined Project Page
 
-To check that everything works, open the project page in the browser:
+To check that everything works, open the 'combined' project page in the browser:
 
 ```bash
 $> open ./PROJECT_NAME.html
@@ -145,7 +145,7 @@ $> touch README.md
 ```
 
 
-###Pushing the New Branch
+###Pushing the Project Page
 
 Stage, commit and push the new branch and files to the remote on Github:
 
@@ -156,7 +156,7 @@ $> git push origin gh-pages
 ```
 
 
-Note that after the first push, it can take up to ten minutes before the new GitHub page 
+Note that after the first push, it may take up to ten minutes before the new GitHub page 
 is available.
 
 
