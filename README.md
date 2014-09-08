@@ -157,6 +157,7 @@ The following can be found in the "walkthroughs" folder:
 * [Ruby on Rails: Deployment to Heroku] (walkthroughs/ror_deployment_to_heroku.md)
 * [Ruby on Rails: Angular Setup] (walkthroughs/ror_angular_setup.md)
 * [Paperclip (Image Management)] (walkthroughs/ror_paperclip.md)
+* [Github: Creating a Project Page] (walkthroughs/github_creating_a_project_page.md)
 
 
 ## Still Pending
