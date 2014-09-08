@@ -13,11 +13,15 @@ __Sources:__
 
 ###General Notes
 
-* This walkthrough describes the steps to deploy a personal project on [Github]()
-using the [Github-io]() (aka [Github-Pages]()) server system.
+* This walkthrough describes the steps to deploy a personal project on 
+[Github](https://github.com) using the [Github-io](https://pages.github.com) (aka 
+[Github-Pages](https://pages.github.com)) server system.
 
-* This is a great (and FREE!) way to present projects inloving static [HTML]() pages,
-  [Javascript](), [jQuery](), [Ajax]() and other front-end only elements.
+* This is a great (and FREE!) way to present projects inloving static 
+  [HTML](http://en.wikipedia.org/wiki/HTML) pages,
+  [Javascript](http://en.wikipedia.org/wiki/JavaScript), 
+  [jQuery](http://jquery.com), [Ajax](http://en.wikipedia.org/wiki/Ajax_(programming)) 
+  and other front-end only elements.
  
 * Text in ALL_CAPITALS_AND_UNDERSCORES indicated a __placeholder__ for your own text 
 
@@ -25,7 +29,7 @@ using the [Github-io]() (aka [Github-Pages]()) server system.
 ###Disclaimer
 
 Please note that the the following is meant only to offer guidance, advice, and helpful 
-tips written by software development students as part of their learning process.  
+tips written by software development students as part of their learning process. 
 As such, the author/s shall have responsibility whatsoever for any loss of data 
 or any other damage caused to users and/or their code as a result of following the 
 the steps presented in this walkthrough.
