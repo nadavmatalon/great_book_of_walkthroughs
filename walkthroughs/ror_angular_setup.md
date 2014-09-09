@@ -49,7 +49,7 @@ In `app/views/layouts/application.html.erb`, add the following content:
                 $http.get('API_URL').success(function(ReturnObjectName) {
                     $scope.Variable1 = ReturnObjectName.AttributeName;
                     $scope.Variable2 = ReturnObjectName.AttributeName;
-                    $scope.Variable4 = ReturnObjectName.AttributeName || "defualut_value";
+                    $scope.Variable3 = ReturnObjectName.AttributeName || "defualut_value";
                     $scope.Variable4 = ReturnObjectName.AttributeName || "defualt_value";
             	}).error(function(profileData) {
                 	// here define actions that happens if that call fails //
