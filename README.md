@@ -156,6 +156,7 @@ The following can be found in the "walkthroughs" folder:
 * [Ruby on Rails: Basic Form Creation] (walkthroughs/ror_basic_form_creation.md)
 * [Ruby on Rails: Testing with Rspec & Capybara] (walkthroughs/ror_testing_rspec_capybara.md)
 * [Ruby on Rails: Deployment to Heroku] (walkthroughs/ror_deployment_to_heroku.md)
+* [Ruby on Rails: Devise Setup] (walkthroughs/ror_devise_setup.md)
 * [Ruby on Rails: Angular Setup] (walkthroughs/ror_angular_setup.md)
 * [Paperclip (Image Management)] (walkthroughs/ror_paperclip.md)
 * [Github: Creating a Project Page] (walkthroughs/github_creating_a_project_page.md)
