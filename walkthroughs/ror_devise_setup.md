@@ -76,7 +76,7 @@ root to: "home#index"
 In `app/views/layouts/application.html.erb` add the following lines in 
 the `<body>` section:
 
-```html
+```
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 ```
@@ -111,7 +111,6 @@ Then open the browser of your choice and go to:
 http://localhost:3000/users/sign_up
 	
 http://localhost:3000/users/sign_in
-	
 ```
 
 ### Adding a 'username' to the 'User' Model
