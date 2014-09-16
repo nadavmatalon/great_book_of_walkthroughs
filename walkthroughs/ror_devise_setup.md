@@ -168,7 +168,7 @@ end
 
 In `config/initializers/devise.rb`, uncomment the following line:
 
-```ruby
+```
 config.secret_key = …
 ```
 
