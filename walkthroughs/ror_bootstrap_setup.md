@@ -82,6 +82,14 @@ before this line `//= require_tree .`:
 //= require bootstrap-sprockets
 ```
 
+
+Re-start the Rails server:
+
+```bash
+$> bin/rails server
+```
+
+
 Add custom styling, for example:
 
 ```ruby
