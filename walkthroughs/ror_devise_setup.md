@@ -189,7 +189,7 @@ for the 'test' environment to this new key:
 
 ```yml
 test:
-devise_secret_key: NEW_SECRET_KEY
+	devise_secret_key: NEW_SECRET_KEY
 ```
 
 Repeat this process twice more for the `development` and `production` environments.
