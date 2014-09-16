@@ -49,7 +49,7 @@
 
 <p>Taking the first steps in any new development domain - be it Ruby, Javascript or Ruby 
 on Rails - is often the hardest part. Walkthroughs are a great way to facilitate the transition 
-from this initial (clueless) phase to a more productive & efficient level of competance.</p>
+from this initial (clueless) phase to a more productive &amp; efficient level of competance.</p>
 
 <p>So, here's the big idea in a nutshell: rather than having each of us spending hours 
 poring over every available the screen-casts, skimming through countless websites, while 
@@ -79,12 +79,12 @@ let me know so I'll update the list on this page.
 New Project in Ruby on Rails" or "Setting Up a Ruby Project with Sinatra", 
 to example-specific ones like "Using the Github API".  
 
-   The [Current Walkthroughs](#current-walkthroughs), [Still Pending](#still-pending) & [Suggested   Topics](#suggested-topics) sections below list all the topics which have either been written on or 
+   The [Current Walkthroughs](#current-walkthroughs), [Still Pending](#still-pending) &amp; [Suggested   Topics](#suggested-topics) sections below list all the topics which have either been written on or 
 already selected, as well as a few open suggestions (but, once again, you can choose to write about 
 anything you like regardless of these suggestions).  
 
 * __Resources__  
-   It's probably also a good idea to take a look at the various pills & walkthroughs 
+   It's probably also a good idea to take a look at the various pills &amp; walkthroughs 
 available on the Maker's website. If there's an excellent walkthough there already, 
 there may not be a need to write a new one (but do send me a link and we'll possibly 
 make a list of those for reference).   
@@ -122,7 +122,7 @@ should be formatted in a nicer way, but overall it should contain all the import
 particularly helpful). Another example is adding a link-pointer to the Github 
 repository of a Gem when the latter is to be included in the Gemfile.
 
-   Also, try to offer a clear distinction between essential steps & optional ones.
+   Also, try to offer a clear distinction between essential steps &amp; optional ones.
 
 * __Testing__   
    The question of how to incorporate testing in these basic walkthroughs is a tricky 
@@ -154,10 +154,11 @@ The following can be found in the "walkthroughs" folder:
 * [Ruby on Rails: Adding Static Pages (Home, About, Contact, Help)] (walkthroughs/ror_adding_static_pages.md)
 * [Ruby on Rails: Thin Webserver Setup (Production alternative to WEBrick)] (walkthroughs/ror_thin_webserver_setup.md)
 * [Ruby on Rails: Basic Form Creation] (walkthroughs/ror_basic_form_creation.md)
-* [Ruby on Rails: Testing with Rspec & Capybara] (walkthroughs/ror_testing_rspec_capybara.md)
+* [Ruby on Rails: Testing with Rspec &amp; Capybara] (walkthroughs/ror_testing_rspec_capybara.md)
 * [Ruby on Rails: Deployment to Heroku] (walkthroughs/ror_deployment_to_heroku.md)
-* [Ruby on Rails: Devise Setup] (walkthroughs/ror_devise_setup.md)
 * [Ruby on Rails: Angular Setup] (walkthroughs/ror_angular_setup.md)
+* [Ruby on Rails: Bootstrap Setup] (walkthroughs/ror_bootstrap_setup.md)
+* [Ruby on Rails: Devise Setup] (walkthroughs/ror_devise_setup.md)
 * [Paperclip (Image Management)] (walkthroughs/ror_paperclip.md)
 * [Github: Creating a Project Page] (walkthroughs/github_creating_a_project_page.md)
 
@@ -179,7 +180,7 @@ The following can be found in the "walkthroughs" folder:
 
 ## Suggested Topics
 
-Pick whatever you like & write a walkthrough:  
+Pick whatever you like &amp; write a walkthrough:  
 
 * Javascript (general guide / concrete examples)
 * APIs (general guide / concrete examples)
