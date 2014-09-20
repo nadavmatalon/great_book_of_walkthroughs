@@ -26,7 +26,7 @@
 		<td align="center" width="190px" >
 			<a href="https://raw.githubusercontent.com/nadavmatalon/great_book_of_walkthroughs/master/images/great_book_2.jpg">
 				<img src="images/great_book_2.jpg" height="105px" />
-				Rspec & Capybara
+				Rspec &amp; Capybara
 			</a>
 		</td>
       <td align="center" width="190px" >
